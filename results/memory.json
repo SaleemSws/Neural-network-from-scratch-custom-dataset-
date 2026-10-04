@@ -1,0 +1,34 @@
+{
+  "device": "cuda",
+  "split": "../../splits/65-35/val.txt",
+  "checkpoint_epoch": 26,
+  "device_name": "NVIDIA GeForce GTX 1650",
+  "input_hwc": [
+    36,
+    64,
+    3
+  ],
+  "source_wh": [
+    1280,
+    720
+  ],
+  "batch_size": 1,
+  "precision": "float32",
+  "warmup_iterations": 5,
+  "measured_iterations": 30,
+  "ram_before_model_mib": 467.57421875,
+  "ram_after_warmup_mib": 755.05078125,
+  "ram_sampled_peak_mib": 758.5859375,
+  "ram_increase_over_baseline_mib": 291.01171875,
+  "ram_sampling_interval_ms": 2,
+  "ram_sample_count": 69,
+  "cuda_peak_allocated_mib": 1.0400390625,
+  "cuda_peak_reserved_mib": 2.0,
+  "cuda_peaks_scope": "after warm-up reset, live model included, PyTorch allocator only",
+  "scope": "RAM sampling covers model load, warm-up and inference. Timed inference includes image disk decode, resize/tensor conversion, network, D2H transfer, binary mask restoration and confidence. Excludes saving outputs.",
+  "limitations": "Sampled RSS may miss brief peaks; includes Python/import overhead. CUDA allocator excludes driver/context and other apps. RAM baseline is after imports and before model load.",
+  "mean_end_to_end_ms": 16.666393333192296,
+  "parameter_count": 122465,
+  "checkpoint_bytes": 503426,
+  "system_ram_mib": 16220.90625
+}

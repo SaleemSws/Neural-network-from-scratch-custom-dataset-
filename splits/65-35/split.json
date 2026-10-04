@@ -1,0 +1,10 @@
+{
+  "seed": 42,
+  "train": 650,
+  "val": 350,
+  "method": "NumPy default_rng(seed).permutation of sorted source manifest union",
+  "train_manifest_sha256": "3147cac004b6f5c8da40d3eb0b1e4a3b25b4eb259de0e03bbac8294677697b06",
+  "validation_manifest_sha256": "884ce7d3d37658b67fc0fd2e4edaa28ef7413ff77f124aca9527d9ad8cbf36a8",
+  "source_manifests_preserved": true,
+  "role": "primary split used for fresh training and all reported artifacts"
+}

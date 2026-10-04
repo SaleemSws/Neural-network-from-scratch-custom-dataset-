@@ -1,0 +1,10 @@
+__pycache__/
+*.pyc
+.venv/
+data/dataset_seg/
+run/validation/masks/
+run/validation/probabilities/
+run/single-image/
+results/training/tensorboard/
+results/training/last.pt
+*.zip

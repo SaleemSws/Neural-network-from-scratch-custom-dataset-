@@ -1,0 +1,25 @@
+{
+  "checkpoint": "best.pt",
+  "epoch": 26,
+  "device": "cpu",
+  "input_height": 36,
+  "input_width": 64,
+  "probability_threshold": 0.5,
+  "binary_mask_encoding": "0/255 PNG",
+  "restoration": "nearest-neighbor binary mask resize to original resolution",
+  "confidence_definition": "Mean foreground probability at model input resolution; zero for empty prediction",
+  "split": null,
+  "manifest_sha256": null,
+  "records": [
+    {
+      "image": "frame_0348_pct26.71.jpg",
+      "stem": "frame_0348_pct26.71",
+      "original_size": [
+        1280,
+        720
+      ],
+      "confidence": 0.9946557283401489,
+      "predicted_foreground": true
+    }
+  ]
+}

@@ -1,0 +1,3515 @@
+{
+  "checkpoint": "best.pt",
+  "epoch": 26,
+  "device": "cuda",
+  "input_height": 36,
+  "input_width": 64,
+  "probability_threshold": 0.5,
+  "binary_mask_encoding": "0/255 PNG",
+  "restoration": "nearest-neighbor binary mask resize to original resolution",
+  "confidence_definition": "Mean foreground probability at model input resolution; zero for empty prediction",
+  "split": "../../splits/65-35/val.txt",
+  "manifest_sha256": "884ce7d3d37658b67fc0fd2e4edaa28ef7413ff77f124aca9527d9ad8cbf36a8",
+  "records": [
+    {
+      "image": "frame_0348_pct26.71.jpg",
+      "stem": "frame_0348_pct26.71",
+      "original_size": [
+        1280,
+        720
+      ],
+      "confidence": 0.9946556091308594,
+      "predicted_foreground": true
+    },
+    {
+      "image": "frame_1126_pct86.60.jpg",
+      "stem": "frame_1126_pct86.60",
+      "original_size": [
+        1280,
+        720
+      ],
+      "confidence": 0.996920108795166,
+      "predicted_foreground": true
+    },
+    {
+      "image": "frame_0568_pct43.65.jpg",
+      "stem": "frame_0568_pct43.65",
+      "original_size": [
+        1280,
+        720
+      ],
+      "confidence": 0.9955748319625854,
+      "predicted_foreground": true
+    },
+    {
+      "image": "frame_0377_pct28.94.jpg",
+      "stem": "frame_0377_pct28.94",
+      "original_size": [
+        1280,
+        720
+      ],
+      "confidence": 0.9953975677490234,
+      "predicted_foreground": true
+    },
+    {
+      "image": "frame_0094_pct07.16.jpg",
+      "stem": "frame_0094_pct07.16",
+      "original_size": [
+        1280,
+        720
+      ],
+      "confidence": 0.9983723759651184,
+      "predicted_foreground": true
+    },
+    {
+      "image": "frame_0096_pct07.31.jpg",
+      "stem": "frame_0096_pct07.31",
+      "original_size": [
+        1280,
+        720
+      ],
+      "confidence": 0.9983525276184082,
+      "predicted_foreground": true
+    },
+    {
+      "image": "frame_0588_pct45.19.jpg",
+      "stem": "frame_0588_pct45.19",
+      "original_size": [
+        1280,
+        720
+      ],
+      "confidence": 0.9979146122932434,
+      "predicted_foreground": true
+    },
+    {
+      "image": "frame_0973_pct74.83.jpg",
+      "stem": "frame_0973_pct74.83",
+      "original_size": [
+        1280,
+        720
+      ],
+      "confidence": 0.998609721660614,
+      "predicted_foreground": true
+    },
+    {
+      "image": "frame_1155_pct88.84.jpg",
+      "stem": "frame_1155_pct88.84",
+      "original_size": [
+        1280,
+        720
+      ],
+      "confidence": 0.998455286026001,
+      "predicted_foreground": true
+    },
+    {
+      "image": "frame_0660_pct50.73.jpg",
+      "stem": "frame_0660_pct50.73",
+      "original_size": [
+        1280,
+        720
+      ],
+      "confidence": 0.9978843331336975,
+      "predicted_foreground": true
+    },
+    {
+      "image": "frame_1071_pct82.37.jpg",
+      "stem": "frame_1071_pct82.37",
+      "original_size": [
+        1280,
+        720
+      ],
+      "confidence": 0.997878909111023,
+      "predicted_foreground": true
+    },
+    {
+      "image": "frame_1116_pct85.83.jpg",
+      "stem": "frame_1116_pct85.83",
+      "original_size": [
+        1280,
+        720
+      ],
+      "confidence": 0.9963580369949341,
+      "predicted_foreground": true
+    },
+    {
+      "image": "frame_0323_pct24.79.jpg",
+      "stem": "frame_0323_pct24.79",
+      "original_size": [
+        1280,
+        720
+      ],
+      "confidence": 0.9975911974906921,
+      "predicted_foreground": true
+    },
+    {
+      "image": "frame_0657_pct50.50.jpg",
+      "stem": "frame_0657_pct50.50",
+      "original_size": [
+        1280,
+        720
+      ],
+      "confidence": 0.9982196092605591,
+      "predicted_foreground": true
+    },
+    {
+      "image": "frame_0519_pct39.88.jpg",
+      "stem": "frame_0519_pct39.88",
+      "original_size": [
+        1280,
+        720
+      ],
+      "confidence": 0.9976168870925903,
+      "predicted_foreground": true
+    },
+    {
+      "image": "frame_1004_pct77.21.jpg",
+      "stem": "frame_1004_pct77.21",
+      "original_size": [
+        1280,
+        720
+      ],
+      "confidence": 0.998181164264679,
+      "predicted_foreground": true
+    },
+    {
+      "image": "frame_0744_pct57.20.jpg",
+      "stem": "frame_0744_pct57.20",
+      "original_size": [
+        1280,
+        720
+      ],
+      "confidence": 0.9983683824539185,
+      "predicted_foreground": true
+    },
+    {
+      "image": "frame_0529_pct40.64.jpg",
+      "stem": "frame_0529_pct40.64",
+      "original_size": [
+        1280,
+        720
+      ],
+      "confidence": 0.9962801933288574,
+      "predicted_foreground": true
+    },
+    {
+      "image": "frame_0763_pct58.66.jpg",
+      "stem": "frame_0763_pct58.66",
+      "original_size": [
+        1280,
+        720
+      ],
+      "confidence": 0.9980942010879517,
+      "predicted_foreground": true
+    },
+    {
+      "image": "frame_0907_pct69.74.jpg",
+      "stem": "frame_0907_pct69.74",
+      "original_size": [
+        1280,
+        720
+      ],
+      "confidence": 0.9979755878448486,
+      "predicted_foreground": true
+    },
+    {
+      "image": "frame_0869_pct66.82.jpg",
+      "stem": "frame_0869_pct66.82",
+      "original_size": [
+        1280,
+        720
+      ],
+      "confidence": 0.9984614253044128,
+      "predicted_foreground": true
+    },
+    {
+      "image": "frame_0048_pct03.62.jpg",
+      "stem": "frame_0048_pct03.62",
+      "original_size": [
+        1280,
+        720
+      ],
+      "confidence": 0.9978809952735901,
+      "predicted_foreground": true
+    },
+    {
+      "image": "frame_0279_pct21.40.jpg",
+      "stem": "frame_0279_pct21.40",
+      "original_size": [
+        1280,
+        720
+      ],
+      "confidence": 0.9986780285835266,
+      "predicted_foreground": true
+    },
+    {
+      "image": "frame_0332_pct25.48.jpg",
+      "stem": "frame_0332_pct25.48",
+      "original_size": [
+        1280,
+        720
+      ],
+      "confidence": 0.9969260096549988,
+      "predicted_foreground": true
+    },
+    {
+      "image": "frame_0550_pct42.26.jpg",
+      "stem": "frame_0550_pct42.26",
+      "original_size": [
+        1280,
+        720
+      ],
+      "confidence": 0.9981553554534912,
+      "predicted_foreground": true
+    },
+    {
+      "image": "frame_0295_pct22.63.jpg",
+      "stem": "frame_0295_pct22.63",
+      "original_size": [
+        1280,
+        720
+      ],
+      "confidence": 0.9983322024345398,
+      "predicted_foreground": true
+    },
+    {
+      "image": "frame_0961_pct73.90.jpg",
+      "stem": "frame_0961_pct73.90",
+      "original_size": [
+        1280,
+        720
+      ],
+      "confidence": 0.9981237649917603,
+      "predicted_foreground": true
+    },
+    {
+      "image": "frame_0277_pct21.25.jpg",
+      "stem": "frame_0277_pct21.25",
+      "original_size": [
+        1280,
+        720
+      ],
+      "confidence": 0.9985924959182739,
+      "predicted_foreground": true
+    },
+    {
+      "image": "frame_1000_pct76.90.jpg",
+      "stem": "frame_1000_pct76.90",
+      "original_size": [
+        1280,
+        720
+      ],
+      "confidence": 0.9967140555381775,
+      "predicted_foreground": true
+    },
+    {
+      "image": "frame_0258_pct19.78.jpg",
+      "stem": "frame_0258_pct19.78",
+      "original_size": [
+        1280,
+        720
+      ],
+      "confidence": 0.9953617453575134,
+      "predicted_foreground": true
+    },
+    {
+      "image": "frame_0801_pct61.59.jpg",
+      "stem": "frame_0801_pct61.59",
+      "original_size": [
+        1280,
+        720
+      ],
+      "confidence": 0.9982462525367737,
+      "predicted_foreground": true
+    },
+    {
+      "image": "frame_0760_pct58.43.jpg",
+      "stem": "frame_0760_pct58.43",
+      "original_size": [
+        1280,
+        720
+      ],
+      "confidence": 0.997827410697937,
+      "predicted_foreground": true
+    },
+    {
+      "image": "frame_1034_pct79.52.jpg",
+      "stem": "frame_1034_pct79.52",
+      "original_size": [
+        1280,
+        720
+      ],
+      "confidence": 0.9977215528488159,
+      "predicted_foreground": true
+    },
+    {
+      "image": "frame_0334_pct25.63.jpg",
+      "stem": "frame_0334_pct25.63",
+      "original_size": [
+        1280,
+        720
+      ],
+      "confidence": 0.9959981441497803,
+      "predicted_foreground": true
+    },
+    {
+      "image": "frame_0043_pct03.23.jpg",
+      "stem": "frame_0043_pct03.23",
+      "original_size": [
+        1280,
+        720
+      ],
+      "confidence": 0.998164713382721,
+      "predicted_foreground": true
+    },
+    {
+      "image": "frame_0240_pct18.40.jpg",
+      "stem": "frame_0240_pct18.40",
+      "original_size": [
+        1280,
+        720
+      ],
+      "confidence": 0.998030424118042,
+      "predicted_foreground": true
+    },
+    {
+      "image": "frame_0110_pct08.39.jpg",
+      "stem": "frame_0110_pct08.39",
+      "original_size": [
+        1280,
+        720
+      ],
+      "confidence": 0.99876469373703,
+      "predicted_foreground": true
+    },
+    {
+      "image": "frame_0766_pct58.89.jpg",
+      "stem": "frame_0766_pct58.89",
+      "original_size": [
+        1280,
+        720
+      ],
+      "confidence": 0.9977240562438965,
+      "predicted_foreground": true
+    },
+    {
+      "image": "frame_0178_pct13.63.jpg",
+      "stem": "frame_0178_pct13.63",
+      "original_size": [
+        1280,
+        720
+      ],
+      "confidence": 0.9983315467834473,
+      "predicted_foreground": true
+    },
+    {
+      "image": "frame_0558_pct42.88.jpg",
+      "stem": "frame_0558_pct42.88",
+      "original_size": [
+        1280,
+        720
+      ],
+      "confidence": 0.9975636005401611,
+      "predicted_foreground": true
+    },
+    {
+      "image": "frame_0226_pct17.32.jpg",
+      "stem": "frame_0226_pct17.32",
+      "original_size": [
+        1280,
+        720
+      ],
+      "confidence": 0.9969918727874756,
+      "predicted_foreground": true
+    },
+    {
+      "image": "frame_0787_pct60.51.jpg",
+      "stem": "frame_0787_pct60.51",
+      "original_size": [
+        1280,
+        720
+      ],
+      "confidence": 0.9983692765235901,
+      "predicted_foreground": true
+    },
+    {
+      "image": "frame_1075_pct82.68.jpg",
+      "stem": "frame_1075_pct82.68",
+      "original_size": [
+        1280,
+        720
+      ],
+      "confidence": 0.9975137710571289,
+      "predicted_foreground": true
+    },
+    {
+      "image": "frame_0164_pct12.55.jpg",
+      "stem": "frame_0164_pct12.55",
+      "original_size": [
+        1280,
+        720
+      ],
+      "confidence": 0.9985920786857605,
+      "predicted_foreground": true
+    },
+    {
+      "image": "frame_0597_pct45.88.jpg",
+      "stem": "frame_0597_pct45.88",
+      "original_size": [
+        1280,
+        720
+      ],
+      "confidence": 0.9954906702041626,
+      "predicted_foreground": true
+    },
+    {
+      "image": "frame_1040_pct79.98.jpg",
+      "stem": "frame_1040_pct79.98",
+      "original_size": [
+        1280,
+        720
+      ],
+      "confidence": 0.9980359077453613,
+      "predicted_foreground": true
+    },
+    {
+      "image": "frame_0088_pct06.70.jpg",
+      "stem": "frame_0088_pct06.70",
+      "original_size": [
+        1280,
+        720
+      ],
+      "confidence": 0.9989643096923828,
+      "predicted_foreground": true
+    },
+    {
+      "image": "frame_0567_pct43.57.jpg",
+      "stem": "frame_0567_pct43.57",
+      "original_size": [
+        1280,
+        720
+      ],
+      "confidence": 0.9978487491607666,
+      "predicted_foreground": true
+    },
+    {
+      "image": "frame_1024_pct78.75.jpg",
+      "stem": "frame_1024_pct78.75",
+      "original_size": [
+        1280,
+        720
+      ],
+      "confidence": 0.9989932775497437,
+      "predicted_foreground": true
+    },
+    {
+      "image": "frame_0570_pct43.80.jpg",
+      "stem": "frame_0570_pct43.80",
+      "original_size": [
+        1280,
+        720
+      ],
+      "confidence": 0.996967077255249,
+      "predicted_foreground": true
+    },
+    {
+      "image": "frame_1147_pct88.22.jpg",
+      "stem": "frame_1147_pct88.22",
+      "original_size": [
+        1280,
+        720
+      ],
+      "confidence": 0.9969607591629028,
+      "predicted_foreground": true
+    },
+    {
+      "image": "frame_0592_pct45.50.jpg",
+      "stem": "frame_0592_pct45.50",
+      "original_size": [
+        1280,
+        720
+      ],
+      "confidence": 0.9969779849052429,
+      "predicted_foreground": true
+    },
+    {
+      "image": "frame_0889_pct68.36.jpg",
+      "stem": "frame_0889_pct68.36",
+      "original_size": [
+        1280,
+        720
+      ],
+      "confidence": 0.9988863468170166,
+      "predicted_foreground": true
+    },
+    {
+      "image": "frame_0721_pct55.42.jpg",
+      "stem": "frame_0721_pct55.42",
+      "original_size": [
+        1280,
+        720
+      ],
+      "confidence": 0.9982509016990662,
+      "predicted_foreground": true
+    },
+    {
+      "image": "frame_1115_pct85.76.jpg",
+      "stem": "frame_1115_pct85.76",
+      "original_size": [
+        1280,
+        720
+      ],
+      "confidence": 0.9974614977836609,
+      "predicted_foreground": true
+    },
+    {
+      "image": "frame_0610_pct46.88.jpg",
+      "stem": "frame_0610_pct46.88",
+      "original_size": [
+        1280,
+        720
+      ],
+      "confidence": 0.9960198402404785,
+      "predicted_foreground": true
+    },
+    {
+      "image": "frame_0700_pct53.81.jpg",
+      "stem": "frame_0700_pct53.81",
+      "original_size": [
+        1280,
+        720
+      ],
+      "confidence": 0.9982866644859314,
+      "predicted_foreground": true
+    },
+    {
+      "image": "frame_0410_pct31.48.jpg",
+      "stem": "frame_0410_pct31.48",
+      "original_size": [
+        1280,
+        720
+      ],
+      "confidence": 0.9961700439453125,
+      "predicted_foreground": true
+    },
+    {
+      "image": "frame_0852_pct65.51.jpg",
+      "stem": "frame_0852_pct65.51",
+      "original_size": [
+        1280,
+        720
+      ],
+      "confidence": 0.998073935508728,
+      "predicted_foreground": true
+    },
+    {
+      "image": "frame_0562_pct43.19.jpg",
+      "stem": "frame_0562_pct43.19",
+      "original_size": [
+        1280,
+        720
+      ],
+      "confidence": 0.9973532557487488,
+      "predicted_foreground": true
+    },
+    {
+      "image": "frame_0263_pct20.17.jpg",
+      "stem": "frame_0263_pct20.17",
+      "original_size": [
+        1280,
+        720
+      ],
+      "confidence": 0.9981199502944946,
+      "predicted_foreground": true
+    },
+    {
+      "image": "frame_0130_pct09.93.jpg",
+      "stem": "frame_0130_pct09.93",
+      "original_size": [
+        1280,
+        720
+      ],
+      "confidence": 0.998752772808075,
+      "predicted_foreground": true
+    },
+    {
+      "image": "frame_1088_pct83.68.jpg",
+      "stem": "frame_1088_pct83.68",
+      "original_size": [
+        1280,
+        720
+      ],
+      "confidence": 0.9977869391441345,
+      "predicted_foreground": true
+    },
+    {
+      "image": "frame_0475_pct36.49.jpg",
+      "stem": "frame_0475_pct36.49",
+      "original_size": [
+        1280,
+        720
+      ],
+      "confidence": 0.9963368773460388,
+      "predicted_foreground": true
+    },
+    {
+      "image": "frame_0331_pct25.40.jpg",
+      "stem": "frame_0331_pct25.40",
+      "original_size": [
+        1280,
+        720
+      ],
+      "confidence": 0.996169924736023,
+      "predicted_foreground": true
+    },
+    {
+      "image": "frame_0211_pct16.16.jpg",
+      "stem": "frame_0211_pct16.16",
+      "original_size": [
+        1280,
+        720
+      ],
+      "confidence": 0.9982459545135498,
+      "predicted_foreground": true
+    },
+    {
+      "image": "frame_0683_pct52.50.jpg",
+      "stem": "frame_0683_pct52.50",
+      "original_size": [
+        1280,
+        720
+      ],
+      "confidence": 0.9990751147270203,
+      "predicted_foreground": true
+    },
+    {
+      "image": "frame_0980_pct75.37.jpg",
+      "stem": "frame_0980_pct75.37",
+      "original_size": [
+        1280,
+        720
+      ],
+      "confidence": 0.998173713684082,
+      "predicted_foreground": true
+    },
+    {
+      "image": "frame_0468_pct35.95.jpg",
+      "stem": "frame_0468_pct35.95",
+      "original_size": [
+        1280,
+        720
+      ],
+      "confidence": 0.995631217956543,
+      "predicted_foreground": true
+    },
+    {
+      "image": "frame_0454_pct34.87.jpg",
+      "stem": "frame_0454_pct34.87",
+      "original_size": [
+        1280,
+        720
+      ],
+      "confidence": 0.9944660067558289,
+      "predicted_foreground": true
+    },
+    {
+      "image": "frame_0195_pct14.93.jpg",
+      "stem": "frame_0195_pct14.93",
+      "original_size": [
+        1280,
+        720
+      ],
+      "confidence": 0.9985523223876953,
+      "predicted_foreground": true
+    },
+    {
+      "image": "frame_0512_pct39.34.jpg",
+      "stem": "frame_0512_pct39.34",
+      "original_size": [
+        1280,
+        720
+      ],
+      "confidence": 0.9959855079650879,
+      "predicted_foreground": true
+    },
+    {
+      "image": "frame_0988_pct75.98.jpg",
+      "stem": "frame_0988_pct75.98",
+      "original_size": [
+        1280,
+        720
+      ],
+      "confidence": 0.9986103177070618,
+      "predicted_foreground": true
+    },
+    {
+      "image": "frame_0239_pct18.32.jpg",
+      "stem": "frame_0239_pct18.32",
+      "original_size": [
+        1280,
+        720
+      ],
+      "confidence": 0.997992753982544,
+      "predicted_foreground": true
+    },
+    {
+      "image": "frame_0464_pct35.64.jpg",
+      "stem": "frame_0464_pct35.64",
+      "original_size": [
+        1280,
+        720
+      ],
+      "confidence": 0.995901882648468,
+      "predicted_foreground": true
+    },
+    {
+      "image": "frame_0754_pct57.97.jpg",
+      "stem": "frame_0754_pct57.97",
+      "original_size": [
+        1280,
+        720
+      ],
+      "confidence": 0.998464047908783,
+      "predicted_foreground": true
+    },
+    {
+      "image": "frame_0536_pct41.18.jpg",
+      "stem": "frame_0536_pct41.18",
+      "original_size": [
+        1280,
+        720
+      ],
+      "confidence": 0.9961917996406555,
+      "predicted_foreground": true
+    },
+    {
+      "image": "frame_0179_pct13.70.jpg",
+      "stem": "frame_0179_pct13.70",
+      "original_size": [
+        1280,
+        720
+      ],
+      "confidence": 0.9979645013809204,
+      "predicted_foreground": true
+    },
+    {
+      "image": "frame_1117_pct85.91.jpg",
+      "stem": "frame_1117_pct85.91",
+      "original_size": [
+        1280,
+        720
+      ],
+      "confidence": 0.9977687001228333,
+      "predicted_foreground": true
+    },
+    {
+      "image": "frame_0091_pct06.93.jpg",
+      "stem": "frame_0091_pct06.93",
+      "original_size": [
+        1280,
+        720
+      ],
+      "confidence": 0.998342752456665,
+      "predicted_foreground": true
+    },
+    {
+      "image": "frame_0285_pct21.86.jpg",
+      "stem": "frame_0285_pct21.86",
+      "original_size": [
+        1280,
+        720
+      ],
+      "confidence": 0.9978046417236328,
+      "predicted_foreground": true
+    },
+    {
+      "image": "frame_0058_pct04.39.jpg",
+      "stem": "frame_0058_pct04.39",
+      "original_size": [
+        1280,
+        720
+      ],
+      "confidence": 0.9985953569412231,
+      "predicted_foreground": true
+    },
+    {
+      "image": "frame_0491_pct37.72.jpg",
+      "stem": "frame_0491_pct37.72",
+      "original_size": [
+        1280,
+        720
+      ],
+      "confidence": 0.9954453110694885,
+      "predicted_foreground": true
+    },
+    {
+      "image": "frame_1044_pct80.29.jpg",
+      "stem": "frame_1044_pct80.29",
+      "original_size": [
+        1280,
+        720
+      ],
+      "confidence": 0.9986435174942017,
+      "predicted_foreground": true
+    },
+    {
+      "image": "frame_0649_pct49.88.jpg",
+      "stem": "frame_0649_pct49.88",
+      "original_size": [
+        1280,
+        720
+      ],
+      "confidence": 0.9968519806861877,
+      "predicted_foreground": true
+    },
+    {
+      "image": "frame_0370_pct28.41.jpg",
+      "stem": "frame_0370_pct28.41",
+      "original_size": [
+        1280,
+        720
+      ],
+      "confidence": 0.9968045949935913,
+      "predicted_foreground": true
+    },
+    {
+      "image": "frame_0786_pct60.43.jpg",
+      "stem": "frame_0786_pct60.43",
+      "original_size": [
+        1280,
+        720
+      ],
+      "confidence": 0.9984304904937744,
+      "predicted_foreground": true
+    },
+    {
+      "image": "frame_0900_pct69.20.jpg",
+      "stem": "frame_0900_pct69.20",
+      "original_size": [
+        1280,
+        720
+      ],
+      "confidence": 0.9982686638832092,
+      "predicted_foreground": true
+    },
+    {
+      "image": "frame_0374_pct28.71.jpg",
+      "stem": "frame_0374_pct28.71",
+      "original_size": [
+        1280,
+        720
+      ],
+      "confidence": 0.9961123466491699,
+      "predicted_foreground": true
+    },
+    {
+      "image": "frame_0857_pct65.90.jpg",
+      "stem": "frame_0857_pct65.90",
+      "original_size": [
+        1280,
+        720
+      ],
+      "confidence": 0.9980975985527039,
+      "predicted_foreground": true
+    },
+    {
+      "image": "frame_1123_pct86.37.jpg",
+      "stem": "frame_1123_pct86.37",
+      "original_size": [
+        1280,
+        720
+      ],
+      "confidence": 0.9984502196311951,
+      "predicted_foreground": true
+    },
+    {
+      "image": "frame_1107_pct85.14.jpg",
+      "stem": "frame_1107_pct85.14",
+      "original_size": [
+        1280,
+        720
+      ],
+      "confidence": 0.9967412948608398,
+      "predicted_foreground": true
+    },
+    {
+      "image": "frame_0188_pct14.39.jpg",
+      "stem": "frame_0188_pct14.39",
+      "original_size": [
+        1280,
+        720
+      ],
+      "confidence": 0.998101532459259,
+      "predicted_foreground": true
+    },
+    {
+      "image": "frame_1157_pct88.99.jpg",
+      "stem": "frame_1157_pct88.99",
+      "original_size": [
+        1280,
+        720
+      ],
+      "confidence": 0.9979795813560486,
+      "predicted_foreground": true
+    },
+    {
+      "image": "frame_0116_pct08.85.jpg",
+      "stem": "frame_0116_pct08.85",
+      "original_size": [
+        1280,
+        720
+      ],
+      "confidence": 0.9983582496643066,
+      "predicted_foreground": true
+    },
+    {
+      "image": "frame_0400_pct30.72.jpg",
+      "stem": "frame_0400_pct30.72",
+      "original_size": [
+        1280,
+        720
+      ],
+      "confidence": 0.9959372878074646,
+      "predicted_foreground": true
+    },
+    {
+      "image": "frame_0560_pct43.03.jpg",
+      "stem": "frame_0560_pct43.03",
+      "original_size": [
+        1280,
+        720
+      ],
+      "confidence": 0.9973905086517334,
+      "predicted_foreground": true
+    },
+    {
+      "image": "frame_0205_pct15.70.jpg",
+      "stem": "frame_0205_pct15.70",
+      "original_size": [
+        1280,
+        720
+      ],
+      "confidence": 0.9979801774024963,
+      "predicted_foreground": true
+    },
+    {
+      "image": "frame_0393_pct30.18.jpg",
+      "stem": "frame_0393_pct30.18",
+      "original_size": [
+        1280,
+        720
+      ],
+      "confidence": 0.9975113272666931,
+      "predicted_foreground": true
+    },
+    {
+      "image": "frame_0946_pct72.75.jpg",
+      "stem": "frame_0946_pct72.75",
+      "original_size": [
+        1280,
+        720
+      ],
+      "confidence": 0.9981181621551514,
+      "predicted_foreground": true
+    },
+    {
+      "image": "frame_0216_pct16.55.jpg",
+      "stem": "frame_0216_pct16.55",
+      "original_size": [
+        1280,
+        720
+      ],
+      "confidence": 0.9984897971153259,
+      "predicted_foreground": true
+    },
+    {
+      "image": "frame_1078_pct82.91.jpg",
+      "stem": "frame_1078_pct82.91",
+      "original_size": [
+        1280,
+        720
+      ],
+      "confidence": 0.9981629252433777,
+      "predicted_foreground": true
+    },
+    {
+      "image": "frame_0293_pct22.48.jpg",
+      "stem": "frame_0293_pct22.48",
+      "original_size": [
+        1280,
+        720
+      ],
+      "confidence": 0.9977668523788452,
+      "predicted_foreground": true
+    },
+    {
+      "image": "frame_0474_pct36.41.jpg",
+      "stem": "frame_0474_pct36.41",
+      "original_size": [
+        1280,
+        720
+      ],
+      "confidence": 0.995430588722229,
+      "predicted_foreground": true
+    },
+    {
+      "image": "frame_0287_pct22.02.jpg",
+      "stem": "frame_0287_pct22.02",
+      "original_size": [
+        1280,
+        720
+      ],
+      "confidence": 0.9989129900932312,
+      "predicted_foreground": true
+    },
+    {
+      "image": "frame_0953_pct73.29.jpg",
+      "stem": "frame_0953_pct73.29",
+      "original_size": [
+        1280,
+        720
+      ],
+      "confidence": 0.9980741739273071,
+      "predicted_foreground": true
+    },
+    {
+      "image": "frame_0368_pct28.25.jpg",
+      "stem": "frame_0368_pct28.25",
+      "original_size": [
+        1280,
+        720
+      ],
+      "confidence": 0.9961934685707092,
+      "predicted_foreground": true
+    },
+    {
+      "image": "frame_0281_pct21.55.jpg",
+      "stem": "frame_0281_pct21.55",
+      "original_size": [
+        1280,
+        720
+      ],
+      "confidence": 0.9978368282318115,
+      "predicted_foreground": true
+    },
+    {
+      "image": "frame_1100_pct84.60.jpg",
+      "stem": "frame_1100_pct84.60",
+      "original_size": [
+        1280,
+        720
+      ],
+      "confidence": 0.997505784034729,
+      "predicted_foreground": true
+    },
+    {
+      "image": "frame_0696_pct53.50.jpg",
+      "stem": "frame_0696_pct53.50",
+      "original_size": [
+        1280,
+        720
+      ],
+      "confidence": 0.9982436895370483,
+      "predicted_foreground": true
+    },
+    {
+      "image": "frame_0579_pct44.50.jpg",
+      "stem": "frame_0579_pct44.50",
+      "original_size": [
+        1280,
+        720
+      ],
+      "confidence": 0.9959224462509155,
+      "predicted_foreground": true
+    },
+    {
+      "image": "frame_0099_pct07.54.jpg",
+      "stem": "frame_0099_pct07.54",
+      "original_size": [
+        1280,
+        720
+      ],
+      "confidence": 0.9971392750740051,
+      "predicted_foreground": true
+    },
+    {
+      "image": "frame_0270_pct20.71.jpg",
+      "stem": "frame_0270_pct20.71",
+      "original_size": [
+        1280,
+        720
+      ],
+      "confidence": 0.9980789422988892,
+      "predicted_foreground": true
+    },
+    {
+      "image": "frame_0890_pct68.44.jpg",
+      "stem": "frame_0890_pct68.44",
+      "original_size": [
+        1280,
+        720
+      ],
+      "confidence": 0.9965190887451172,
+      "predicted_foreground": true
+    },
+    {
+      "image": "frame_0428_pct32.87.jpg",
+      "stem": "frame_0428_pct32.87",
+      "original_size": [
+        1280,
+        720
+      ],
+      "confidence": 0.9932560324668884,
+      "predicted_foreground": true
+    },
+    {
+      "image": "frame_0244_pct18.71.jpg",
+      "stem": "frame_0244_pct18.71",
+      "original_size": [
+        1280,
+        720
+      ],
+      "confidence": 0.9974849224090576,
+      "predicted_foreground": true
+    },
+    {
+      "image": "frame_0622_pct47.81.jpg",
+      "stem": "frame_0622_pct47.81",
+      "original_size": [
+        1280,
+        720
+      ],
+      "confidence": 0.9981306195259094,
+      "predicted_foreground": true
+    },
+    {
+      "image": "frame_0481_pct36.95.jpg",
+      "stem": "frame_0481_pct36.95",
+      "original_size": [
+        1280,
+        720
+      ],
+      "confidence": 0.9949434399604797,
+      "predicted_foreground": true
+    },
+    {
+      "image": "frame_1042_pct80.14.jpg",
+      "stem": "frame_1042_pct80.14",
+      "original_size": [
+        1280,
+        720
+      ],
+      "confidence": 0.9977856278419495,
+      "predicted_foreground": true
+    },
+    {
+      "image": "frame_0300_pct23.02.jpg",
+      "stem": "frame_0300_pct23.02",
+      "original_size": [
+        1280,
+        720
+      ],
+      "confidence": 0.9990435838699341,
+      "predicted_foreground": true
+    },
+    {
+      "image": "frame_0016_pct01.15.jpg",
+      "stem": "frame_0016_pct01.15",
+      "original_size": [
+        1280,
+        720
+      ],
+      "confidence": 0.9985076189041138,
+      "predicted_foreground": true
+    },
+    {
+      "image": "frame_0565_pct43.42.jpg",
+      "stem": "frame_0565_pct43.42",
+      "original_size": [
+        1280,
+        720
+      ],
+      "confidence": 0.9979442358016968,
+      "predicted_foreground": true
+    },
+    {
+      "image": "frame_0191_pct14.63.jpg",
+      "stem": "frame_0191_pct14.63",
+      "original_size": [
+        1280,
+        720
+      ],
+      "confidence": 0.9978516697883606,
+      "predicted_foreground": true
+    },
+    {
+      "image": "frame_0455_pct34.95.jpg",
+      "stem": "frame_0455_pct34.95",
+      "original_size": [
+        1280,
+        720
+      ],
+      "confidence": 0.9960535168647766,
+      "predicted_foreground": true
+    },
+    {
+      "image": "frame_0246_pct18.86.jpg",
+      "stem": "frame_0246_pct18.86",
+      "original_size": [
+        1280,
+        720
+      ],
+      "confidence": 0.9981036186218262,
+      "predicted_foreground": true
+    },
+    {
+      "image": "frame_0237_pct18.17.jpg",
+      "stem": "frame_0237_pct18.17",
+      "original_size": [
+        1280,
+        720
+      ],
+      "confidence": 0.9975278973579407,
+      "predicted_foreground": true
+    },
+    {
+      "image": "frame_0702_pct53.96.jpg",
+      "stem": "frame_0702_pct53.96",
+      "original_size": [
+        1280,
+        720
+      ],
+      "confidence": 0.9966122508049011,
+      "predicted_foreground": true
+    },
+    {
+      "image": "frame_0790_pct60.74.jpg",
+      "stem": "frame_0790_pct60.74",
+      "original_size": [
+        1280,
+        720
+      ],
+      "confidence": 0.9985167980194092,
+      "predicted_foreground": true
+    },
+    {
+      "image": "frame_0133_pct10.16.jpg",
+      "stem": "frame_0133_pct10.16",
+      "original_size": [
+        1280,
+        720
+      ],
+      "confidence": 0.9981926679611206,
+      "predicted_foreground": true
+    },
+    {
+      "image": "frame_0580_pct44.57.jpg",
+      "stem": "frame_0580_pct44.57",
+      "original_size": [
+        1280,
+        720
+      ],
+      "confidence": 0.9974949955940247,
+      "predicted_foreground": true
+    },
+    {
+      "image": "frame_0039_pct02.92.jpg",
+      "stem": "frame_0039_pct02.92",
+      "original_size": [
+        1280,
+        720
+      ],
+      "confidence": 0.9984148740768433,
+      "predicted_foreground": true
+    },
+    {
+      "image": "frame_0770_pct59.20.jpg",
+      "stem": "frame_0770_pct59.20",
+      "original_size": [
+        1280,
+        720
+      ],
+      "confidence": 0.9981204271316528,
+      "predicted_foreground": true
+    },
+    {
+      "image": "frame_0596_pct45.80.jpg",
+      "stem": "frame_0596_pct45.80",
+      "original_size": [
+        1280,
+        720
+      ],
+      "confidence": 0.9953789114952087,
+      "predicted_foreground": true
+    },
+    {
+      "image": "frame_0187_pct14.32.jpg",
+      "stem": "frame_0187_pct14.32",
+      "original_size": [
+        1280,
+        720
+      ],
+      "confidence": 0.998144268989563,
+      "predicted_foreground": true
+    },
+    {
+      "image": "frame_0235_pct18.01.jpg",
+      "stem": "frame_0235_pct18.01",
+      "original_size": [
+        1280,
+        720
+      ],
+      "confidence": 0.998084545135498,
+      "predicted_foreground": true
+    },
+    {
+      "image": "frame_0387_pct29.71.jpg",
+      "stem": "frame_0387_pct29.71",
+      "original_size": [
+        1280,
+        720
+      ],
+      "confidence": 0.9959393739700317,
+      "predicted_foreground": true
+    },
+    {
+      "image": "frame_0521_pct40.03.jpg",
+      "stem": "frame_0521_pct40.03",
+      "original_size": [
+        1280,
+        720
+      ],
+      "confidence": 0.9969760179519653,
+      "predicted_foreground": true
+    },
+    {
+      "image": "frame_0253_pct19.40.jpg",
+      "stem": "frame_0253_pct19.40",
+      "original_size": [
+        1280,
+        720
+      ],
+      "confidence": 0.9979828000068665,
+      "predicted_foreground": true
+    },
+    {
+      "image": "frame_1086_pct83.52.jpg",
+      "stem": "frame_1086_pct83.52",
+      "original_size": [
+        1280,
+        720
+      ],
+      "confidence": 0.9980019927024841,
+      "predicted_foreground": true
+    },
+    {
+      "image": "frame_0661_pct50.81.jpg",
+      "stem": "frame_0661_pct50.81",
+      "original_size": [
+        1280,
+        720
+      ],
+      "confidence": 0.9980237483978271,
+      "predicted_foreground": true
+    },
+    {
+      "image": "frame_0594_pct45.65.jpg",
+      "stem": "frame_0594_pct45.65",
+      "original_size": [
+        1280,
+        720
+      ],
+      "confidence": 0.9950780868530273,
+      "predicted_foreground": true
+    },
+    {
+      "image": "frame_0414_pct31.79.jpg",
+      "stem": "frame_0414_pct31.79",
+      "original_size": [
+        1280,
+        720
+      ],
+      "confidence": 0.9948174357414246,
+      "predicted_foreground": true
+    },
+    {
+      "image": "frame_1053_pct80.98.jpg",
+      "stem": "frame_1053_pct80.98",
+      "original_size": [
+        1280,
+        720
+      ],
+      "confidence": 0.9980805516242981,
+      "predicted_foreground": true
+    },
+    {
+      "image": "frame_0583_pct44.80.jpg",
+      "stem": "frame_0583_pct44.80",
+      "original_size": [
+        1280,
+        720
+      ],
+      "confidence": 0.9978009462356567,
+      "predicted_foreground": true
+    },
+    {
+      "image": "frame_0654_pct50.27.jpg",
+      "stem": "frame_0654_pct50.27",
+      "original_size": [
+        1280,
+        720
+      ],
+      "confidence": 0.9976835250854492,
+      "predicted_foreground": true
+    },
+    {
+      "image": "frame_1077_pct82.83.jpg",
+      "stem": "frame_1077_pct82.83",
+      "original_size": [
+        1280,
+        720
+      ],
+      "confidence": 0.9982220530509949,
+      "predicted_foreground": true
+    },
+    {
+      "image": "frame_0470_pct36.10.jpg",
+      "stem": "frame_0470_pct36.10",
+      "original_size": [
+        1280,
+        720
+      ],
+      "confidence": 0.9946945309638977,
+      "predicted_foreground": true
+    },
+    {
+      "image": "frame_0968_pct74.44.jpg",
+      "stem": "frame_0968_pct74.44",
+      "original_size": [
+        1280,
+        720
+      ],
+      "confidence": 0.9981873631477356,
+      "predicted_foreground": true
+    },
+    {
+      "image": "frame_0007_pct00.46.jpg",
+      "stem": "frame_0007_pct00.46",
+      "original_size": [
+        1280,
+        720
+      ],
+      "confidence": 0.99798983335495,
+      "predicted_foreground": true
+    },
+    {
+      "image": "frame_0115_pct08.77.jpg",
+      "stem": "frame_0115_pct08.77",
+      "original_size": [
+        1280,
+        720
+      ],
+      "confidence": 0.9984053373336792,
+      "predicted_foreground": true
+    },
+    {
+      "image": "frame_0633_pct48.65.jpg",
+      "stem": "frame_0633_pct48.65",
+      "original_size": [
+        1280,
+        720
+      ],
+      "confidence": 0.9976986050605774,
+      "predicted_foreground": true
+    },
+    {
+      "image": "frame_0554_pct42.57.jpg",
+      "stem": "frame_0554_pct42.57",
+      "original_size": [
+        1280,
+        720
+      ],
+      "confidence": 0.994813084602356,
+      "predicted_foreground": true
+    },
+    {
+      "image": "frame_0572_pct43.96.jpg",
+      "stem": "frame_0572_pct43.96",
+      "original_size": [
+        1280,
+        720
+      ],
+      "confidence": 0.9983511567115784,
+      "predicted_foreground": true
+    },
+    {
+      "image": "frame_0375_pct28.79.jpg",
+      "stem": "frame_0375_pct28.79",
+      "original_size": [
+        1280,
+        720
+      ],
+      "confidence": 0.9962245225906372,
+      "predicted_foreground": true
+    },
+    {
+      "image": "frame_0114_pct08.70.jpg",
+      "stem": "frame_0114_pct08.70",
+      "original_size": [
+        1280,
+        720
+      ],
+      "confidence": 0.9982917308807373,
+      "predicted_foreground": true
+    },
+    {
+      "image": "frame_0985_pct75.75.jpg",
+      "stem": "frame_0985_pct75.75",
+      "original_size": [
+        1280,
+        720
+      ],
+      "confidence": 0.9975824356079102,
+      "predicted_foreground": true
+    },
+    {
+      "image": "frame_1035_pct79.60.jpg",
+      "stem": "frame_1035_pct79.60",
+      "original_size": [
+        1280,
+        720
+      ],
+      "confidence": 0.9980027675628662,
+      "predicted_foreground": true
+    },
+    {
+      "image": "frame_0893_pct68.67.jpg",
+      "stem": "frame_0893_pct68.67",
+      "original_size": [
+        1280,
+        720
+      ],
+      "confidence": 0.9982774257659912,
+      "predicted_foreground": true
+    },
+    {
+      "image": "frame_0452_pct34.72.jpg",
+      "stem": "frame_0452_pct34.72",
+      "original_size": [
+        1280,
+        720
+      ],
+      "confidence": 0.9971039891242981,
+      "predicted_foreground": true
+    },
+    {
+      "image": "frame_0460_pct35.33.jpg",
+      "stem": "frame_0460_pct35.33",
+      "original_size": [
+        1280,
+        720
+      ],
+      "confidence": 0.9947479963302612,
+      "predicted_foreground": true
+    },
+    {
+      "image": "frame_0647_pct49.73.jpg",
+      "stem": "frame_0647_pct49.73",
+      "original_size": [
+        1280,
+        720
+      ],
+      "confidence": 0.9971314668655396,
+      "predicted_foreground": true
+    },
+    {
+      "image": "frame_0053_pct04.00.jpg",
+      "stem": "frame_0053_pct04.00",
+      "original_size": [
+        1280,
+        720
+      ],
+      "confidence": 0.9983068108558655,
+      "predicted_foreground": true
+    },
+    {
+      "image": "frame_0438_pct33.64.jpg",
+      "stem": "frame_0438_pct33.64",
+      "original_size": [
+        1280,
+        720
+      ],
+      "confidence": 0.9957209825515747,
+      "predicted_foreground": true
+    },
+    {
+      "image": "frame_0416_pct31.95.jpg",
+      "stem": "frame_0416_pct31.95",
+      "original_size": [
+        1280,
+        720
+      ],
+      "confidence": 0.9965163469314575,
+      "predicted_foreground": true
+    },
+    {
+      "image": "frame_0772_pct59.35.jpg",
+      "stem": "frame_0772_pct59.35",
+      "original_size": [
+        1280,
+        720
+      ],
+      "confidence": 0.9987521171569824,
+      "predicted_foreground": true
+    },
+    {
+      "image": "frame_0516_pct39.64.jpg",
+      "stem": "frame_0516_pct39.64",
+      "original_size": [
+        1280,
+        720
+      ],
+      "confidence": 0.997424840927124,
+      "predicted_foreground": true
+    },
+    {
+      "image": "frame_0503_pct38.64.jpg",
+      "stem": "frame_0503_pct38.64",
+      "original_size": [
+        1280,
+        720
+      ],
+      "confidence": 0.9978538751602173,
+      "predicted_foreground": true
+    },
+    {
+      "image": "frame_0745_pct57.27.jpg",
+      "stem": "frame_0745_pct57.27",
+      "original_size": [
+        1280,
+        720
+      ],
+      "confidence": 0.9965978860855103,
+      "predicted_foreground": true
+    },
+    {
+      "image": "frame_0729_pct56.04.jpg",
+      "stem": "frame_0729_pct56.04",
+      "original_size": [
+        1280,
+        720
+      ],
+      "confidence": 0.9919324517250061,
+      "predicted_foreground": true
+    },
+    {
+      "image": "frame_0257_pct19.71.jpg",
+      "stem": "frame_0257_pct19.71",
+      "original_size": [
+        1280,
+        720
+      ],
+      "confidence": 0.9976301193237305,
+      "predicted_foreground": true
+    },
+    {
+      "image": "frame_0421_pct32.33.jpg",
+      "stem": "frame_0421_pct32.33",
+      "original_size": [
+        1280,
+        720
+      ],
+      "confidence": 0.9952440857887268,
+      "predicted_foreground": true
+    },
+    {
+      "image": "frame_0747_pct57.43.jpg",
+      "stem": "frame_0747_pct57.43",
+      "original_size": [
+        1280,
+        720
+      ],
+      "confidence": 0.9980477094650269,
+      "predicted_foreground": true
+    },
+    {
+      "image": "frame_0479_pct36.80.jpg",
+      "stem": "frame_0479_pct36.80",
+      "original_size": [
+        1280,
+        720
+      ],
+      "confidence": 0.9965046644210815,
+      "predicted_foreground": true
+    },
+    {
+      "image": "frame_0515_pct39.57.jpg",
+      "stem": "frame_0515_pct39.57",
+      "original_size": [
+        1280,
+        720
+      ],
+      "confidence": 0.9983927607536316,
+      "predicted_foreground": true
+    },
+    {
+      "image": "frame_0102_pct07.77.jpg",
+      "stem": "frame_0102_pct07.77",
+      "original_size": [
+        1280,
+        720
+      ],
+      "confidence": 0.9986907243728638,
+      "predicted_foreground": true
+    },
+    {
+      "image": "frame_0969_pct74.52.jpg",
+      "stem": "frame_0969_pct74.52",
+      "original_size": [
+        1280,
+        720
+      ],
+      "confidence": 0.9982778429985046,
+      "predicted_foreground": true
+    },
+    {
+      "image": "frame_0962_pct73.98.jpg",
+      "stem": "frame_0962_pct73.98",
+      "original_size": [
+        1280,
+        720
+      ],
+      "confidence": 0.9978610277175903,
+      "predicted_foreground": true
+    },
+    {
+      "image": "frame_1005_pct77.29.jpg",
+      "stem": "frame_1005_pct77.29",
+      "original_size": [
+        1280,
+        720
+      ],
+      "confidence": 0.9980953931808472,
+      "predicted_foreground": true
+    },
+    {
+      "image": "frame_0422_pct32.41.jpg",
+      "stem": "frame_0422_pct32.41",
+      "original_size": [
+        1280,
+        720
+      ],
+      "confidence": 0.9939488172531128,
+      "predicted_foreground": true
+    },
+    {
+      "image": "frame_0363_pct27.87.jpg",
+      "stem": "frame_0363_pct27.87",
+      "original_size": [
+        1280,
+        720
+      ],
+      "confidence": 0.9965159893035889,
+      "predicted_foreground": true
+    },
+    {
+      "image": "frame_0513_pct39.41.jpg",
+      "stem": "frame_0513_pct39.41",
+      "original_size": [
+        1280,
+        720
+      ],
+      "confidence": 0.9954690933227539,
+      "predicted_foreground": true
+    },
+    {
+      "image": "frame_0073_pct05.54.jpg",
+      "stem": "frame_0073_pct05.54",
+      "original_size": [
+        1280,
+        720
+      ],
+      "confidence": 0.9984109997749329,
+      "predicted_foreground": true
+    },
+    {
+      "image": "frame_1070_pct82.29.jpg",
+      "stem": "frame_1070_pct82.29",
+      "original_size": [
+        1280,
+        720
+      ],
+      "confidence": 0.9974967241287231,
+      "predicted_foreground": true
+    },
+    {
+      "image": "frame_0394_pct30.25.jpg",
+      "stem": "frame_0394_pct30.25",
+      "original_size": [
+        1280,
+        720
+      ],
+      "confidence": 0.9966760873794556,
+      "predicted_foreground": true
+    },
+    {
+      "image": "frame_0613_pct47.11.jpg",
+      "stem": "frame_0613_pct47.11",
+      "original_size": [
+        1280,
+        720
+      ],
+      "confidence": 0.9983648061752319,
+      "predicted_foreground": true
+    },
+    {
+      "image": "frame_0297_pct22.79.jpg",
+      "stem": "frame_0297_pct22.79",
+      "original_size": [
+        1280,
+        720
+      ],
+      "confidence": 0.9991728663444519,
+      "predicted_foreground": true
+    },
+    {
+      "image": "frame_0851_pct65.43.jpg",
+      "stem": "frame_0851_pct65.43",
+      "original_size": [
+        1280,
+        720
+      ],
+      "confidence": 0.9979183077812195,
+      "predicted_foreground": true
+    },
+    {
+      "image": "frame_0127_pct09.70.jpg",
+      "stem": "frame_0127_pct09.70",
+      "original_size": [
+        1280,
+        720
+      ],
+      "confidence": 0.9974287152290344,
+      "predicted_foreground": true
+    },
+    {
+      "image": "frame_0152_pct11.62.jpg",
+      "stem": "frame_0152_pct11.62",
+      "original_size": [
+        1280,
+        720
+      ],
+      "confidence": 0.9980964064598083,
+      "predicted_foreground": true
+    },
+    {
+      "image": "frame_0459_pct35.26.jpg",
+      "stem": "frame_0459_pct35.26",
+      "original_size": [
+        1280,
+        720
+      ],
+      "confidence": 0.9949448704719543,
+      "predicted_foreground": true
+    },
+    {
+      "image": "frame_1150_pct88.45.jpg",
+      "stem": "frame_1150_pct88.45",
+      "original_size": [
+        1280,
+        720
+      ],
+      "confidence": 0.996576726436615,
+      "predicted_foreground": true
+    },
+    {
+      "image": "frame_0606_pct46.57.jpg",
+      "stem": "frame_0606_pct46.57",
+      "original_size": [
+        1280,
+        720
+      ],
+      "confidence": 0.9956125617027283,
+      "predicted_foreground": true
+    },
+    {
+      "image": "frame_0860_pct66.13.jpg",
+      "stem": "frame_0860_pct66.13",
+      "original_size": [
+        1280,
+        720
+      ],
+      "confidence": 0.9981186985969543,
+      "predicted_foreground": true
+    },
+    {
+      "image": "frame_0436_pct33.49.jpg",
+      "stem": "frame_0436_pct33.49",
+      "original_size": [
+        1280,
+        720
+      ],
+      "confidence": 0.9952685236930847,
+      "predicted_foreground": true
+    },
+    {
+      "image": "frame_0126_pct09.62.jpg",
+      "stem": "frame_0126_pct09.62",
+      "original_size": [
+        1280,
+        720
+      ],
+      "confidence": 0.9978964924812317,
+      "predicted_foreground": true
+    },
+    {
+      "image": "frame_0296_pct22.71.jpg",
+      "stem": "frame_0296_pct22.71",
+      "original_size": [
+        1280,
+        720
+      ],
+      "confidence": 0.9985201358795166,
+      "predicted_foreground": true
+    },
+    {
+      "image": "frame_0399_pct30.64.jpg",
+      "stem": "frame_0399_pct30.64",
+      "original_size": [
+        1280,
+        720
+      ],
+      "confidence": 0.996392011642456,
+      "predicted_foreground": true
+    },
+    {
+      "image": "frame_0220_pct16.86.jpg",
+      "stem": "frame_0220_pct16.86",
+      "original_size": [
+        1280,
+        720
+      ],
+      "confidence": 0.9983380436897278,
+      "predicted_foreground": true
+    },
+    {
+      "image": "frame_1006_pct77.37.jpg",
+      "stem": "frame_1006_pct77.37",
+      "original_size": [
+        1280,
+        720
+      ],
+      "confidence": 0.9974250197410583,
+      "predicted_foreground": true
+    },
+    {
+      "image": "frame_0992_pct76.29.jpg",
+      "stem": "frame_0992_pct76.29",
+      "original_size": [
+        1280,
+        720
+      ],
+      "confidence": 0.9980438947677612,
+      "predicted_foreground": true
+    },
+    {
+      "image": "frame_0060_pct04.54.jpg",
+      "stem": "frame_0060_pct04.54",
+      "original_size": [
+        1280,
+        720
+      ],
+      "confidence": 0.9981124997138977,
+      "predicted_foreground": true
+    },
+    {
+      "image": "frame_0391_pct30.02.jpg",
+      "stem": "frame_0391_pct30.02",
+      "original_size": [
+        1280,
+        720
+      ],
+      "confidence": 0.9977553486824036,
+      "predicted_foreground": true
+    },
+    {
+      "image": "frame_0218_pct16.70.jpg",
+      "stem": "frame_0218_pct16.70",
+      "original_size": [
+        1280,
+        720
+      ],
+      "confidence": 0.99853515625,
+      "predicted_foreground": true
+    },
+    {
+      "image": "frame_0466_pct35.80.jpg",
+      "stem": "frame_0466_pct35.80",
+      "original_size": [
+        1280,
+        720
+      ],
+      "confidence": 0.9963887929916382,
+      "predicted_foreground": true
+    },
+    {
+      "image": "frame_0598_pct45.96.jpg",
+      "stem": "frame_0598_pct45.96",
+      "original_size": [
+        1280,
+        720
+      ],
+      "confidence": 0.9947531223297119,
+      "predicted_foreground": true
+    },
+    {
+      "image": "frame_0219_pct16.78.jpg",
+      "stem": "frame_0219_pct16.78",
+      "original_size": [
+        1280,
+        720
+      ],
+      "confidence": 0.9978476166725159,
+      "predicted_foreground": true
+    },
+    {
+      "image": "frame_0954_pct73.36.jpg",
+      "stem": "frame_0954_pct73.36",
+      "original_size": [
+        1280,
+        720
+      ],
+      "confidence": 0.9977172017097473,
+      "predicted_foreground": true
+    },
+    {
+      "image": "frame_0108_pct08.24.jpg",
+      "stem": "frame_0108_pct08.24",
+      "original_size": [
+        1280,
+        720
+      ],
+      "confidence": 0.9984680414199829,
+      "predicted_foreground": true
+    },
+    {
+      "image": "frame_0862_pct66.28.jpg",
+      "stem": "frame_0862_pct66.28",
+      "original_size": [
+        1280,
+        720
+      ],
+      "confidence": 0.9980457425117493,
+      "predicted_foreground": true
+    },
+    {
+      "image": "frame_0556_pct42.72.jpg",
+      "stem": "frame_0556_pct42.72",
+      "original_size": [
+        1280,
+        720
+      ],
+      "confidence": 0.9986097812652588,
+      "predicted_foreground": true
+    },
+    {
+      "image": "frame_0008_pct00.54.jpg",
+      "stem": "frame_0008_pct00.54",
+      "original_size": [
+        1280,
+        720
+      ],
+      "confidence": 0.9980920553207397,
+      "predicted_foreground": true
+    },
+    {
+      "image": "frame_0693_pct53.27.jpg",
+      "stem": "frame_0693_pct53.27",
+      "original_size": [
+        1280,
+        720
+      ],
+      "confidence": 0.9973242282867432,
+      "predicted_foreground": true
+    },
+    {
+      "image": "frame_0804_pct61.81.jpg",
+      "stem": "frame_0804_pct61.81",
+      "original_size": [
+        1280,
+        720
+      ],
+      "confidence": 0.9980924725532532,
+      "predicted_foreground": true
+    },
+    {
+      "image": "frame_1111_pct85.45.jpg",
+      "stem": "frame_1111_pct85.45",
+      "original_size": [
+        1280,
+        720
+      ],
+      "confidence": 0.997800350189209,
+      "predicted_foreground": true
+    },
+    {
+      "image": "frame_0505_pct38.80.jpg",
+      "stem": "frame_0505_pct38.80",
+      "original_size": [
+        1280,
+        720
+      ],
+      "confidence": 0.9978623390197754,
+      "predicted_foreground": true
+    },
+    {
+      "image": "frame_1051_pct80.83.jpg",
+      "stem": "frame_1051_pct80.83",
+      "original_size": [
+        1280,
+        720
+      ],
+      "confidence": 0.9980295300483704,
+      "predicted_foreground": true
+    },
+    {
+      "image": "frame_1003_pct77.13.jpg",
+      "stem": "frame_1003_pct77.13",
+      "original_size": [
+        1280,
+        720
+      ],
+      "confidence": 0.9983254075050354,
+      "predicted_foreground": true
+    },
+    {
+      "image": "frame_0437_pct33.56.jpg",
+      "stem": "frame_0437_pct33.56",
+      "original_size": [
+        1280,
+        720
+      ],
+      "confidence": 0.9947702884674072,
+      "predicted_foreground": true
+    },
+    {
+      "image": "frame_0384_pct29.48.jpg",
+      "stem": "frame_0384_pct29.48",
+      "original_size": [
+        1280,
+        720
+      ],
+      "confidence": 0.9967648386955261,
+      "predicted_foreground": true
+    },
+    {
+      "image": "frame_0932_pct71.67.jpg",
+      "stem": "frame_0932_pct71.67",
+      "original_size": [
+        1280,
+        720
+      ],
+      "confidence": 0.9981312155723572,
+      "predicted_foreground": true
+    },
+    {
+      "image": "frame_0411_pct31.56.jpg",
+      "stem": "frame_0411_pct31.56",
+      "original_size": [
+        1280,
+        720
+      ],
+      "confidence": 0.9965506792068481,
+      "predicted_foreground": true
+    },
+    {
+      "image": "frame_0686_pct52.73.jpg",
+      "stem": "frame_0686_pct52.73",
+      "original_size": [
+        1280,
+        720
+      ],
+      "confidence": 0.9979304075241089,
+      "predicted_foreground": true
+    },
+    {
+      "image": "frame_0577_pct44.34.jpg",
+      "stem": "frame_0577_pct44.34",
+      "original_size": [
+        1280,
+        720
+      ],
+      "confidence": 0.9982547163963318,
+      "predicted_foreground": true
+    },
+    {
+      "image": "frame_1120_pct86.14.jpg",
+      "stem": "frame_1120_pct86.14",
+      "original_size": [
+        1280,
+        720
+      ],
+      "confidence": 0.997242271900177,
+      "predicted_foreground": true
+    },
+    {
+      "image": "frame_0427_pct32.79.jpg",
+      "stem": "frame_0427_pct32.79",
+      "original_size": [
+        1280,
+        720
+      ],
+      "confidence": 0.9958877563476562,
+      "predicted_foreground": true
+    },
+    {
+      "image": "frame_0144_pct11.01.jpg",
+      "stem": "frame_0144_pct11.01",
+      "original_size": [
+        1280,
+        720
+      ],
+      "confidence": 0.9977564215660095,
+      "predicted_foreground": true
+    },
+    {
+      "image": "frame_0200_pct15.32.jpg",
+      "stem": "frame_0200_pct15.32",
+      "original_size": [
+        1280,
+        720
+      ],
+      "confidence": 0.9981966614723206,
+      "predicted_foreground": true
+    },
+    {
+      "image": "frame_0993_pct76.37.jpg",
+      "stem": "frame_0993_pct76.37",
+      "original_size": [
+        1280,
+        720
+      ],
+      "confidence": 0.9979615211486816,
+      "predicted_foreground": true
+    },
+    {
+      "image": "frame_0153_pct11.70.jpg",
+      "stem": "frame_0153_pct11.70",
+      "original_size": [
+        1280,
+        720
+      ],
+      "confidence": 0.9977017045021057,
+      "predicted_foreground": true
+    },
+    {
+      "image": "frame_0341_pct26.17.jpg",
+      "stem": "frame_0341_pct26.17",
+      "original_size": [
+        1280,
+        720
+      ],
+      "confidence": 0.9976248741149902,
+      "predicted_foreground": true
+    },
+    {
+      "image": "frame_0711_pct54.66.jpg",
+      "stem": "frame_0711_pct54.66",
+      "original_size": [
+        1280,
+        720
+      ],
+      "confidence": 0.997744083404541,
+      "predicted_foreground": true
+    },
+    {
+      "image": "frame_0698_pct53.66.jpg",
+      "stem": "frame_0698_pct53.66",
+      "original_size": [
+        1280,
+        720
+      ],
+      "confidence": 0.998279333114624,
+      "predicted_foreground": true
+    },
+    {
+      "image": "frame_0841_pct64.66.jpg",
+      "stem": "frame_0841_pct64.66",
+      "original_size": [
+        1280,
+        720
+      ],
+      "confidence": 0.9990220069885254,
+      "predicted_foreground": true
+    },
+    {
+      "image": "frame_0928_pct71.36.jpg",
+      "stem": "frame_0928_pct71.36",
+      "original_size": [
+        1280,
+        720
+      ],
+      "confidence": 0.9977933168411255,
+      "predicted_foreground": true
+    },
+    {
+      "image": "frame_1076_pct82.76.jpg",
+      "stem": "frame_1076_pct82.76",
+      "original_size": [
+        1280,
+        720
+      ],
+      "confidence": 0.9968564510345459,
+      "predicted_foreground": true
+    },
+    {
+      "image": "frame_0581_pct44.65.jpg",
+      "stem": "frame_0581_pct44.65",
+      "original_size": [
+        1280,
+        720
+      ],
+      "confidence": 0.9972929954528809,
+      "predicted_foreground": true
+    },
+    {
+      "image": "frame_0848_pct65.20.jpg",
+      "stem": "frame_0848_pct65.20",
+      "original_size": [
+        1280,
+        720
+      ],
+      "confidence": 0.9984574913978577,
+      "predicted_foreground": true
+    },
+    {
+      "image": "frame_0695_pct53.42.jpg",
+      "stem": "frame_0695_pct53.42",
+      "original_size": [
+        1280,
+        720
+      ],
+      "confidence": 0.9964677691459656,
+      "predicted_foreground": true
+    },
+    {
+      "image": "frame_0251_pct19.24.jpg",
+      "stem": "frame_0251_pct19.24",
+      "original_size": [
+        1280,
+        720
+      ],
+      "confidence": 0.9974907040596008,
+      "predicted_foreground": true
+    },
+    {
+      "image": "frame_0759_pct58.35.jpg",
+      "stem": "frame_0759_pct58.35",
+      "original_size": [
+        1280,
+        720
+      ],
+      "confidence": 0.9985051155090332,
+      "predicted_foreground": true
+    },
+    {
+      "image": "frame_0132_pct10.08.jpg",
+      "stem": "frame_0132_pct10.08",
+      "original_size": [
+        1280,
+        720
+      ],
+      "confidence": 0.9985852837562561,
+      "predicted_foreground": true
+    },
+    {
+      "image": "frame_0548_pct42.11.jpg",
+      "stem": "frame_0548_pct42.11",
+      "original_size": [
+        1280,
+        720
+      ],
+      "confidence": 0.9990720152854919,
+      "predicted_foreground": true
+    },
+    {
+      "image": "frame_0557_pct42.80.jpg",
+      "stem": "frame_0557_pct42.80",
+      "original_size": [
+        1280,
+        720
+      ],
+      "confidence": 0.9965546131134033,
+      "predicted_foreground": true
+    },
+    {
+      "image": "frame_0381_pct29.25.jpg",
+      "stem": "frame_0381_pct29.25",
+      "original_size": [
+        1280,
+        720
+      ],
+      "confidence": 0.9977282881736755,
+      "predicted_foreground": true
+    },
+    {
+      "image": "frame_0319_pct24.48.jpg",
+      "stem": "frame_0319_pct24.48",
+      "original_size": [
+        1280,
+        720
+      ],
+      "confidence": 0.9968251585960388,
+      "predicted_foreground": true
+    },
+    {
+      "image": "frame_0317_pct24.33.jpg",
+      "stem": "frame_0317_pct24.33",
+      "original_size": [
+        1280,
+        720
+      ],
+      "confidence": 0.9968680739402771,
+      "predicted_foreground": true
+    },
+    {
+      "image": "frame_0401_pct30.79.jpg",
+      "stem": "frame_0401_pct30.79",
+      "original_size": [
+        1280,
+        720
+      ],
+      "confidence": 0.9967920184135437,
+      "predicted_foreground": true
+    },
+    {
+      "image": "frame_1114_pct85.68.jpg",
+      "stem": "frame_1114_pct85.68",
+      "original_size": [
+        1280,
+        720
+      ],
+      "confidence": 0.9971267580986023,
+      "predicted_foreground": true
+    },
+    {
+      "image": "frame_0217_pct16.63.jpg",
+      "stem": "frame_0217_pct16.63",
+      "original_size": [
+        1280,
+        720
+      ],
+      "confidence": 0.9984461069107056,
+      "predicted_foreground": true
+    },
+    {
+      "image": "frame_0086_pct06.54.jpg",
+      "stem": "frame_0086_pct06.54",
+      "original_size": [
+        1280,
+        720
+      ],
+      "confidence": 0.9962404370307922,
+      "predicted_foreground": true
+    },
+    {
+      "image": "frame_1132_pct87.07.jpg",
+      "stem": "frame_1132_pct87.07",
+      "original_size": [
+        1280,
+        720
+      ],
+      "confidence": 0.9978910088539124,
+      "predicted_foreground": true
+    },
+    {
+      "image": "frame_0707_pct54.35.jpg",
+      "stem": "frame_0707_pct54.35",
+      "original_size": [
+        1280,
+        720
+      ],
+      "confidence": 0.9988099932670593,
+      "predicted_foreground": true
+    },
+    {
+      "image": "frame_0666_pct51.19.jpg",
+      "stem": "frame_0666_pct51.19",
+      "original_size": [
+        1280,
+        720
+      ],
+      "confidence": 0.998096764087677,
+      "predicted_foreground": true
+    },
+    {
+      "image": "frame_1106_pct85.07.jpg",
+      "stem": "frame_1106_pct85.07",
+      "original_size": [
+        1280,
+        720
+      ],
+      "confidence": 0.9967918992042542,
+      "predicted_foreground": true
+    },
+    {
+      "image": "frame_0090_pct06.85.jpg",
+      "stem": "frame_0090_pct06.85",
+      "original_size": [
+        1280,
+        720
+      ],
+      "confidence": 0.9984171986579895,
+      "predicted_foreground": true
+    },
+    {
+      "image": "frame_0473_pct36.33.jpg",
+      "stem": "frame_0473_pct36.33",
+      "original_size": [
+        1280,
+        720
+      ],
+      "confidence": 0.9957696199417114,
+      "predicted_foreground": true
+    },
+    {
+      "image": "frame_0794_pct61.05.jpg",
+      "stem": "frame_0794_pct61.05",
+      "original_size": [
+        1280,
+        720
+      ],
+      "confidence": 0.9986333250999451,
+      "predicted_foreground": true
+    },
+    {
+      "image": "frame_0742_pct57.04.jpg",
+      "stem": "frame_0742_pct57.04",
+      "original_size": [
+        1280,
+        720
+      ],
+      "confidence": 0.9980233311653137,
+      "predicted_foreground": true
+    },
+    {
+      "image": "frame_0207_pct15.86.jpg",
+      "stem": "frame_0207_pct15.86",
+      "original_size": [
+        1280,
+        720
+      ],
+      "confidence": 0.998129665851593,
+      "predicted_foreground": true
+    },
+    {
+      "image": "frame_0866_pct66.59.jpg",
+      "stem": "frame_0866_pct66.59",
+      "original_size": [
+        1280,
+        720
+      ],
+      "confidence": 0.9976765513420105,
+      "predicted_foreground": true
+    },
+    {
+      "image": "frame_1140_pct87.68.jpg",
+      "stem": "frame_1140_pct87.68",
+      "original_size": [
+        1280,
+        720
+      ],
+      "confidence": 0.9966759085655212,
+      "predicted_foreground": true
+    },
+    {
+      "image": "frame_0147_pct11.24.jpg",
+      "stem": "frame_0147_pct11.24",
+      "original_size": [
+        1280,
+        720
+      ],
+      "confidence": 0.9987610578536987,
+      "predicted_foreground": true
+    },
+    {
+      "image": "frame_0682_pct52.42.jpg",
+      "stem": "frame_0682_pct52.42",
+      "original_size": [
+        1280,
+        720
+      ],
+      "confidence": 0.9982925057411194,
+      "predicted_foreground": true
+    },
+    {
+      "image": "frame_0424_pct32.56.jpg",
+      "stem": "frame_0424_pct32.56",
+      "original_size": [
+        1280,
+        720
+      ],
+      "confidence": 0.9949967265129089,
+      "predicted_foreground": true
+    },
+    {
+      "image": "frame_0013_pct00.92.jpg",
+      "stem": "frame_0013_pct00.92",
+      "original_size": [
+        1280,
+        720
+      ],
+      "confidence": 0.998336672782898,
+      "predicted_foreground": true
+    },
+    {
+      "image": "frame_0724_pct55.66.jpg",
+      "stem": "frame_0724_pct55.66",
+      "original_size": [
+        1280,
+        720
+      ],
+      "confidence": 0.9979888200759888,
+      "predicted_foreground": true
+    },
+    {
+      "image": "frame_1085_pct83.45.jpg",
+      "stem": "frame_1085_pct83.45",
+      "original_size": [
+        1280,
+        720
+      ],
+      "confidence": 0.9974511861801147,
+      "predicted_foreground": true
+    },
+    {
+      "image": "frame_0774_pct59.51.jpg",
+      "stem": "frame_0774_pct59.51",
+      "original_size": [
+        1280,
+        720
+      ],
+      "confidence": 0.9984631538391113,
+      "predicted_foreground": true
+    },
+    {
+      "image": "frame_0084_pct06.39.jpg",
+      "stem": "frame_0084_pct06.39",
+      "original_size": [
+        1280,
+        720
+      ],
+      "confidence": 0.9985023736953735,
+      "predicted_foreground": true
+    },
+    {
+      "image": "frame_0865_pct66.51.jpg",
+      "stem": "frame_0865_pct66.51",
+      "original_size": [
+        1280,
+        720
+      ],
+      "confidence": 0.9963310360908508,
+      "predicted_foreground": true
+    },
+    {
+      "image": "frame_0573_pct44.03.jpg",
+      "stem": "frame_0573_pct44.03",
+      "original_size": [
+        1280,
+        720
+      ],
+      "confidence": 0.9971792697906494,
+      "predicted_foreground": true
+    },
+    {
+      "image": "frame_0004_pct00.23.jpg",
+      "stem": "frame_0004_pct00.23",
+      "original_size": [
+        1280,
+        720
+      ],
+      "confidence": 0.9986403584480286,
+      "predicted_foreground": true
+    },
+    {
+      "image": "frame_0063_pct04.77.jpg",
+      "stem": "frame_0063_pct04.77",
+      "original_size": [
+        1280,
+        720
+      ],
+      "confidence": 0.9988858699798584,
+      "predicted_foreground": true
+    },
+    {
+      "image": "frame_0730_pct56.12.jpg",
+      "stem": "frame_0730_pct56.12",
+      "original_size": [
+        1280,
+        720
+      ],
+      "confidence": 0.9952751398086548,
+      "predicted_foreground": true
+    },
+    {
+      "image": "frame_0602_pct46.27.jpg",
+      "stem": "frame_0602_pct46.27",
+      "original_size": [
+        1280,
+        720
+      ],
+      "confidence": 0.9973670244216919,
+      "predicted_foreground": true
+    },
+    {
+      "image": "frame_0197_pct15.09.jpg",
+      "stem": "frame_0197_pct15.09",
+      "original_size": [
+        1280,
+        720
+      ],
+      "confidence": 0.9987825751304626,
+      "predicted_foreground": true
+    },
+    {
+      "image": "frame_0951_pct73.13.jpg",
+      "stem": "frame_0951_pct73.13",
+      "original_size": [
+        1280,
+        720
+      ],
+      "confidence": 0.9980265498161316,
+      "predicted_foreground": true
+    },
+    {
+      "image": "frame_0963_pct74.06.jpg",
+      "stem": "frame_0963_pct74.06",
+      "original_size": [
+        1280,
+        720
+      ],
+      "confidence": 0.9980756044387817,
+      "predicted_foreground": true
+    },
+    {
+      "image": "frame_0097_pct07.39.jpg",
+      "stem": "frame_0097_pct07.39",
+      "original_size": [
+        1280,
+        720
+      ],
+      "confidence": 0.9977158308029175,
+      "predicted_foreground": true
+    },
+    {
+      "image": "frame_0365_pct28.02.jpg",
+      "stem": "frame_0365_pct28.02",
+      "original_size": [
+        1280,
+        720
+      ],
+      "confidence": 0.995309054851532,
+      "predicted_foreground": true
+    },
+    {
+      "image": "frame_0336_pct25.79.jpg",
+      "stem": "frame_0336_pct25.79",
+      "original_size": [
+        1280,
+        720
+      ],
+      "confidence": 0.9957492351531982,
+      "predicted_foreground": true
+    },
+    {
+      "image": "frame_0575_pct44.19.jpg",
+      "stem": "frame_0575_pct44.19",
+      "original_size": [
+        1280,
+        720
+      ],
+      "confidence": 0.9971930384635925,
+      "predicted_foreground": true
+    },
+    {
+      "image": "frame_0563_pct43.26.jpg",
+      "stem": "frame_0563_pct43.26",
+      "original_size": [
+        1280,
+        720
+      ],
+      "confidence": 0.9958996772766113,
+      "predicted_foreground": true
+    },
+    {
+      "image": "frame_0850_pct65.36.jpg",
+      "stem": "frame_0850_pct65.36",
+      "original_size": [
+        1280,
+        720
+      ],
+      "confidence": 0.9981679916381836,
+      "predicted_foreground": true
+    },
+    {
+      "image": "frame_0979_pct75.29.jpg",
+      "stem": "frame_0979_pct75.29",
+      "original_size": [
+        1280,
+        720
+      ],
+      "confidence": 0.9978623390197754,
+      "predicted_foreground": true
+    },
+    {
+      "image": "frame_0616_pct47.34.jpg",
+      "stem": "frame_0616_pct47.34",
+      "original_size": [
+        1280,
+        720
+      ],
+      "confidence": 0.9975849986076355,
+      "predicted_foreground": true
+    },
+    {
+      "image": "frame_0746_pct57.35.jpg",
+      "stem": "frame_0746_pct57.35",
+      "original_size": [
+        1280,
+        720
+      ],
+      "confidence": 0.9980880618095398,
+      "predicted_foreground": true
+    },
+    {
+      "image": "frame_1097_pct84.37.jpg",
+      "stem": "frame_1097_pct84.37",
+      "original_size": [
+        1280,
+        720
+      ],
+      "confidence": 0.9990396499633789,
+      "predicted_foreground": true
+    },
+    {
+      "image": "frame_0713_pct54.81.jpg",
+      "stem": "frame_0713_pct54.81",
+      "original_size": [
+        1280,
+        720
+      ],
+      "confidence": 0.9975186586380005,
+      "predicted_foreground": true
+    },
+    {
+      "image": "frame_0330_pct25.33.jpg",
+      "stem": "frame_0330_pct25.33",
+      "original_size": [
+        1280,
+        720
+      ],
+      "confidence": 0.9990415573120117,
+      "predicted_foreground": true
+    },
+    {
+      "image": "frame_0909_pct69.90.jpg",
+      "stem": "frame_0909_pct69.90",
+      "original_size": [
+        1280,
+        720
+      ],
+      "confidence": 0.9985045790672302,
+      "predicted_foreground": true
+    },
+    {
+      "image": "frame_1068_pct82.14.jpg",
+      "stem": "frame_1068_pct82.14",
+      "original_size": [
+        1280,
+        720
+      ],
+      "confidence": 0.9981407523155212,
+      "predicted_foreground": true
+    },
+    {
+      "image": "frame_0242_pct18.55.jpg",
+      "stem": "frame_0242_pct18.55",
+      "original_size": [
+        1280,
+        720
+      ],
+      "confidence": 0.998950183391571,
+      "predicted_foreground": true
+    },
+    {
+      "image": "frame_0628_pct48.27.jpg",
+      "stem": "frame_0628_pct48.27",
+      "original_size": [
+        1280,
+        720
+      ],
+      "confidence": 0.9967492818832397,
+      "predicted_foreground": true
+    },
+    {
+      "image": "frame_1125_pct86.53.jpg",
+      "stem": "frame_1125_pct86.53",
+      "original_size": [
+        1280,
+        720
+      ],
+      "confidence": 0.9983062148094177,
+      "predicted_foreground": true
+    },
+    {
+      "image": "frame_0777_pct59.74.jpg",
+      "stem": "frame_0777_pct59.74",
+      "original_size": [
+        1280,
+        720
+      ],
+      "confidence": 0.9984471201896667,
+      "predicted_foreground": true
+    },
+    {
+      "image": "frame_0369_pct28.33.jpg",
+      "stem": "frame_0369_pct28.33",
+      "original_size": [
+        1280,
+        720
+      ],
+      "confidence": 0.9954237937927246,
+      "predicted_foreground": true
+    },
+    {
+      "image": "frame_0078_pct05.93.jpg",
+      "stem": "frame_0078_pct05.93",
+      "original_size": [
+        1280,
+        720
+      ],
+      "confidence": 0.9990329742431641,
+      "predicted_foreground": true
+    },
+    {
+      "image": "frame_0933_pct71.75.jpg",
+      "stem": "frame_0933_pct71.75",
+      "original_size": [
+        1280,
+        720
+      ],
+      "confidence": 0.9982247948646545,
+      "predicted_foreground": true
+    },
+    {
+      "image": "frame_0608_pct46.73.jpg",
+      "stem": "frame_0608_pct46.73",
+      "original_size": [
+        1280,
+        720
+      ],
+      "confidence": 0.9950873851776123,
+      "predicted_foreground": true
+    },
+    {
+      "image": "frame_1090_pct83.83.jpg",
+      "stem": "frame_1090_pct83.83",
+      "original_size": [
+        1280,
+        720
+      ],
+      "confidence": 0.9968220591545105,
+      "predicted_foreground": true
+    },
+    {
+      "image": "frame_0307_pct23.55.jpg",
+      "stem": "frame_0307_pct23.55",
+      "original_size": [
+        1280,
+        720
+      ],
+      "confidence": 0.9986515641212463,
+      "predicted_foreground": true
+    },
+    {
+      "image": "frame_0018_pct01.31.jpg",
+      "stem": "frame_0018_pct01.31",
+      "original_size": [
+        1280,
+        720
+      ],
+      "confidence": 0.9972445964813232,
+      "predicted_foreground": true
+    },
+    {
+      "image": "frame_0495_pct38.03.jpg",
+      "stem": "frame_0495_pct38.03",
+      "original_size": [
+        1280,
+        720
+      ],
+      "confidence": 0.9947802424430847,
+      "predicted_foreground": true
+    },
+    {
+      "image": "frame_0576_pct44.26.jpg",
+      "stem": "frame_0576_pct44.26",
+      "original_size": [
+        1280,
+        720
+      ],
+      "confidence": 0.9968741536140442,
+      "predicted_foreground": true
+    },
+    {
+      "image": "frame_0970_pct74.59.jpg",
+      "stem": "frame_0970_pct74.59",
+      "original_size": [
+        1280,
+        720
+      ],
+      "confidence": 0.997581422328949,
+      "predicted_foreground": true
+    },
+    {
+      "image": "frame_0717_pct55.12.jpg",
+      "stem": "frame_0717_pct55.12",
+      "original_size": [
+        1280,
+        720
+      ],
+      "confidence": 0.997738778591156,
+      "predicted_foreground": true
+    },
+    {
+      "image": "frame_0167_pct12.78.jpg",
+      "stem": "frame_0167_pct12.78",
+      "original_size": [
+        1280,
+        720
+      ],
+      "confidence": 0.9990238547325134,
+      "predicted_foreground": true
+    },
+    {
+      "image": "frame_0807_pct62.05.jpg",
+      "stem": "frame_0807_pct62.05",
+      "original_size": [
+        1280,
+        720
+      ],
+      "confidence": 0.997118353843689,
+      "predicted_foreground": true
+    },
+    {
+      "image": "frame_0327_pct25.10.jpg",
+      "stem": "frame_0327_pct25.10",
+      "original_size": [
+        1280,
+        720
+      ],
+      "confidence": 0.99791020154953,
+      "predicted_foreground": true
+    },
+    {
+      "image": "frame_0514_pct39.49.jpg",
+      "stem": "frame_0514_pct39.49",
+      "original_size": [
+        1280,
+        720
+      ],
+      "confidence": 0.9975403547286987,
+      "predicted_foreground": true
+    },
+    {
+      "image": "frame_0601_pct46.19.jpg",
+      "stem": "frame_0601_pct46.19",
+      "original_size": [
+        1280,
+        720
+      ],
+      "confidence": 0.9965125322341919,
+      "predicted_foreground": true
+    },
+    {
+      "image": "frame_0340_pct26.10.jpg",
+      "stem": "frame_0340_pct26.10",
+      "original_size": [
+        1280,
+        720
+      ],
+      "confidence": 0.9964690804481506,
+      "predicted_foreground": true
+    },
+    {
+      "image": "frame_0882_pct67.82.jpg",
+      "stem": "frame_0882_pct67.82",
+      "original_size": [
+        1280,
+        720
+      ],
+      "confidence": 0.9990515112876892,
+      "predicted_foreground": true
+    },
+    {
+      "image": "frame_0718_pct55.20.jpg",
+      "stem": "frame_0718_pct55.20",
+      "original_size": [
+        1280,
+        720
+      ],
+      "confidence": 0.9969613552093506,
+      "predicted_foreground": true
+    },
+    {
+      "image": "frame_1101_pct84.68.jpg",
+      "stem": "frame_1101_pct84.68",
+      "original_size": [
+        1280,
+        720
+      ],
+      "confidence": 0.9966295957565308,
+      "predicted_foreground": true
+    },
+    {
+      "image": "frame_0225_pct17.24.jpg",
+      "stem": "frame_0225_pct17.24",
+      "original_size": [
+        1280,
+        720
+      ],
+      "confidence": 0.9967374205589294,
+      "predicted_foreground": true
+    },
+    {
+      "image": "frame_0055_pct04.16.jpg",
+      "stem": "frame_0055_pct04.16",
+      "original_size": [
+        1280,
+        720
+      ],
+      "confidence": 0.9984148144721985,
+      "predicted_foreground": true
+    },
+    {
+      "image": "frame_0326_pct25.02.jpg",
+      "stem": "frame_0326_pct25.02",
+      "original_size": [
+        1280,
+        720
+      ],
+      "confidence": 0.9968762397766113,
+      "predicted_foreground": true
+    },
+    {
+      "image": "frame_0366_pct28.10.jpg",
+      "stem": "frame_0366_pct28.10",
+      "original_size": [
+        1280,
+        720
+      ],
+      "confidence": 0.9973695278167725,
+      "predicted_foreground": true
+    },
+    {
+      "image": "frame_1128_pct86.76.jpg",
+      "stem": "frame_1128_pct86.76",
+      "original_size": [
+        1280,
+        720
+      ],
+      "confidence": 0.9956303834915161,
+      "predicted_foreground": true
+    },
+    {
+      "image": "frame_0620_pct47.65.jpg",
+      "stem": "frame_0620_pct47.65",
+      "original_size": [
+        1280,
+        720
+      ],
+      "confidence": 0.9984222054481506,
+      "predicted_foreground": true
+    },
+    {
+      "image": "frame_0385_pct29.56.jpg",
+      "stem": "frame_0385_pct29.56",
+      "original_size": [
+        1280,
+        720
+      ],
+      "confidence": 0.9958207011222839,
+      "predicted_foreground": true
+    },
+    {
+      "image": "frame_0212_pct16.24.jpg",
+      "stem": "frame_0212_pct16.24",
+      "original_size": [
+        1280,
+        720
+      ],
+      "confidence": 0.9986923336982727,
+      "predicted_foreground": true
+    },
+    {
+      "image": "frame_0070_pct05.31.jpg",
+      "stem": "frame_0070_pct05.31",
+      "original_size": [
+        1280,
+        720
+      ],
+      "confidence": 0.9976614713668823,
+      "predicted_foreground": true
+    },
+    {
+      "image": "frame_0591_pct45.42.jpg",
+      "stem": "frame_0591_pct45.42",
+      "original_size": [
+        1280,
+        720
+      ],
+      "confidence": 0.9974827170372009,
+      "predicted_foreground": true
+    },
+    {
+      "image": "frame_0123_pct09.39.jpg",
+      "stem": "frame_0123_pct09.39",
+      "original_size": [
+        1280,
+        720
+      ],
+      "confidence": 0.9983938336372375,
+      "predicted_foreground": true
+    },
+    {
+      "image": "frame_0792_pct60.89.jpg",
+      "stem": "frame_0792_pct60.89",
+      "original_size": [
+        1280,
+        720
+      ],
+      "confidence": 0.998974621295929,
+      "predicted_foreground": true
+    },
+    {
+      "image": "frame_0756_pct58.12.jpg",
+      "stem": "frame_0756_pct58.12",
+      "original_size": [
+        1280,
+        720
+      ],
+      "confidence": 0.9974650144577026,
+      "predicted_foreground": true
+    },
+    {
+      "image": "frame_0062_pct04.69.jpg",
+      "stem": "frame_0062_pct04.69",
+      "original_size": [
+        1280,
+        720
+      ],
+      "confidence": 0.9988053441047668,
+      "predicted_foreground": true
+    },
+    {
+      "image": "frame_0626_pct48.11.jpg",
+      "stem": "frame_0626_pct48.11",
+      "original_size": [
+        1280,
+        720
+      ],
+      "confidence": 0.9982491135597229,
+      "predicted_foreground": true
+    },
+    {
+      "image": "frame_0418_pct32.10.jpg",
+      "stem": "frame_0418_pct32.10",
+      "original_size": [
+        1280,
+        720
+      ],
+      "confidence": 0.9973067045211792,
+      "predicted_foreground": true
+    },
+    {
+      "image": "frame_0607_pct46.65.jpg",
+      "stem": "frame_0607_pct46.65",
+      "original_size": [
+        1280,
+        720
+      ],
+      "confidence": 0.9975013136863708,
+      "predicted_foreground": true
+    },
+    {
+      "image": "frame_0312_pct23.94.jpg",
+      "stem": "frame_0312_pct23.94",
+      "original_size": [
+        1280,
+        720
+      ],
+      "confidence": 0.9981335401535034,
+      "predicted_foreground": true
+    },
+    {
+      "image": "frame_0780_pct59.97.jpg",
+      "stem": "frame_0780_pct59.97",
+      "original_size": [
+        1280,
+        720
+      ],
+      "confidence": 0.9970443248748779,
+      "predicted_foreground": true
+    },
+    {
+      "image": "frame_0974_pct74.90.jpg",
+      "stem": "frame_0974_pct74.90",
+      "original_size": [
+        1280,
+        720
+      ],
+      "confidence": 0.9983139038085938,
+      "predicted_foreground": true
+    },
+    {
+      "image": "frame_0343_pct26.33.jpg",
+      "stem": "frame_0343_pct26.33",
+      "original_size": [
+        1280,
+        720
+      ],
+      "confidence": 0.9957348704338074,
+      "predicted_foreground": true
+    },
+    {
+      "image": "frame_0143_pct10.93.jpg",
+      "stem": "frame_0143_pct10.93",
+      "original_size": [
+        1280,
+        720
+      ],
+      "confidence": 0.9985525608062744,
+      "predicted_foreground": true
+    },
+    {
+      "image": "frame_0879_pct67.59.jpg",
+      "stem": "frame_0879_pct67.59",
+      "original_size": [
+        1280,
+        720
+      ],
+      "confidence": 0.9987607598304749,
+      "predicted_foreground": true
+    },
+    {
+      "image": "frame_1066_pct81.98.jpg",
+      "stem": "frame_1066_pct81.98",
+      "original_size": [
+        1280,
+        720
+      ],
+      "confidence": 0.9978254437446594,
+      "predicted_foreground": true
+    },
+    {
+      "image": "frame_0500_pct38.41.jpg",
+      "stem": "frame_0500_pct38.41",
+      "original_size": [
+        1280,
+        720
+      ],
+      "confidence": 0.99583899974823,
+      "predicted_foreground": true
+    },
+    {
+      "image": "frame_0564_pct43.34.jpg",
+      "stem": "frame_0564_pct43.34",
+      "original_size": [
+        1280,
+        720
+      ],
+      "confidence": 0.9975425601005554,
+      "predicted_foreground": true
+    },
+    {
+      "image": "frame_0599_pct46.03.jpg",
+      "stem": "frame_0599_pct46.03",
+      "original_size": [
+        1280,
+        720
+      ],
+      "confidence": 0.9943682551383972,
+      "predicted_foreground": true
+    },
+    {
+      "image": "frame_0171_pct13.09.jpg",
+      "stem": "frame_0171_pct13.09",
+      "original_size": [
+        1280,
+        720
+      ],
+      "confidence": 0.9978733062744141,
+      "predicted_foreground": true
+    },
+    {
+      "image": "frame_0811_pct62.35.jpg",
+      "stem": "frame_0811_pct62.35",
+      "original_size": [
+        1280,
+        720
+      ],
+      "confidence": 0.9976315498352051,
+      "predicted_foreground": true
+    },
+    {
+      "image": "frame_0621_pct47.73.jpg",
+      "stem": "frame_0621_pct47.73",
+      "original_size": [
+        1280,
+        720
+      ],
+      "confidence": 0.9974674582481384,
+      "predicted_foreground": true
+    },
+    {
+      "image": "frame_0705_pct54.20.jpg",
+      "stem": "frame_0705_pct54.20",
+      "original_size": [
+        1280,
+        720
+      ],
+      "confidence": 0.9983900785446167,
+      "predicted_foreground": true
+    },
+    {
+      "image": "frame_1119_pct86.07.jpg",
+      "stem": "frame_1119_pct86.07",
+      "original_size": [
+        1280,
+        720
+      ],
+      "confidence": 0.9987201690673828,
+      "predicted_foreground": true
+    },
+    {
+      "image": "frame_1131_pct86.99.jpg",
+      "stem": "frame_1131_pct86.99",
+      "original_size": [
+        1280,
+        720
+      ],
+      "confidence": 0.996371865272522,
+      "predicted_foreground": true
+    },
+    {
+      "image": "frame_0753_pct57.89.jpg",
+      "stem": "frame_0753_pct57.89",
+      "original_size": [
+        1280,
+        720
+      ],
+      "confidence": 0.9979893565177917,
+      "predicted_foreground": true
+    }
+  ]
+}

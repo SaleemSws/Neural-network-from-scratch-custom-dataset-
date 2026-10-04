@@ -1,0 +1,1493 @@
+{
+  "class_names": {
+    "0": "line_left",
+    "1": "line_center",
+    "2": "line_right",
+    "3": "lane",
+    "4": "non-track area"
+  },
+  "lane_class": 3,
+  "train_images": 650,
+  "validation_images": 350,
+  "image_sizes": {
+    "1280x720": 1000
+  },
+  "polygon_counts": {
+    "4": 1998,
+    "2": 1000,
+    "0": 998,
+    "1": 1000,
+    "3": 1000
+  },
+  "empty_lane_images": [],
+  "geometrically_invalid_polygons": [
+    {
+      "image": "frame_1136_pct87.37.jpg",
+      "class": 4,
+      "reason": "Ring Self-intersection[0.241406 0.2625]"
+    },
+    {
+      "image": "frame_1091_pct83.91.jpg",
+      "class": 4,
+      "reason": "Ring Self-intersection[0.014844 0.318056]"
+    },
+    {
+      "image": "frame_1091_pct83.91.jpg",
+      "class": 4,
+      "reason": "Ring Self-intersection[0.409375 0.279167]"
+    },
+    {
+      "image": "frame_0731_pct56.20.jpg",
+      "class": 3,
+      "reason": "Ring Self-intersection[0.698438 0.480556]"
+    },
+    {
+      "image": "frame_1152_pct88.60.jpg",
+      "class": 4,
+      "reason": "Ring Self-intersection[0.166406 0.184722]"
+    },
+    {
+      "image": "frame_0627_pct48.19.jpg",
+      "class": 2,
+      "reason": "Ring Self-intersection[0.538281 0.298611]"
+    },
+    {
+      "image": "frame_0530_pct40.72.jpg",
+      "class": 4,
+      "reason": "Ring Self-intersection[0.949219 0.320833]"
+    },
+    {
+      "image": "frame_0530_pct40.72.jpg",
+      "class": 2,
+      "reason": "Self-intersection[0.585547562650024 0.285070083533365]"
+    },
+    {
+      "image": "frame_0314_pct24.09.jpg",
+      "class": 2,
+      "reason": "Self-intersection[0.476627149287962 0.326620438263374]"
+    },
+    {
+      "image": "frame_1061_pct81.60.jpg",
+      "class": 4,
+      "reason": "Self-intersection[0.372656 0.188889]"
+    },
+    {
+      "image": "frame_0903_pct69.44.jpg",
+      "class": 4,
+      "reason": "Self-intersection[0.382565313030589 0.224269095135427]"
+    },
+    {
+      "image": "frame_0903_pct69.44.jpg",
+      "class": 0,
+      "reason": "Self-intersection[0.542969 0.270833]"
+    },
+    {
+      "image": "frame_0533_pct40.95.jpg",
+      "class": 4,
+      "reason": "Self-intersection[0.997513958692111 0.346338237840354]"
+    },
+    {
+      "image": "frame_0269_pct20.63.jpg",
+      "class": 4,
+      "reason": "Self-intersection[0.560303444283437 0.294837090421678]"
+    },
+    {
+      "image": "frame_0471_pct36.18.jpg",
+      "class": 4,
+      "reason": "Self-intersection[0.494531 0.279167]"
+    },
+    {
+      "image": "frame_0471_pct36.18.jpg",
+      "class": 0,
+      "reason": "Ring Self-intersection[0.4875 0.290278]"
+    },
+    {
+      "image": "frame_0806_pct61.97.jpg",
+      "class": 4,
+      "reason": "Self-intersection[0.124609425794258 0.363889]"
+    },
+    {
+      "image": "frame_0520_pct39.95.jpg",
+      "class": 2,
+      "reason": "Ring Self-intersection[0.590625 0.348611]"
+    },
+    {
+      "image": "frame_0376_pct28.87.jpg",
+      "class": 2,
+      "reason": "Self-intersection[0.573505933830486 0.286292229367244]"
+    },
+    {
+      "image": "frame_0571_pct43.88.jpg",
+      "class": 2,
+      "reason": "Ring Self-intersection[0.613281 0.333333]"
+    },
+    {
+      "image": "frame_0433_pct33.25.jpg",
+      "class": 3,
+      "reason": "Self-intersection[0.461861007611696 0.264816876368775]"
+    },
+    {
+      "image": "frame_0566_pct43.49.jpg",
+      "class": 2,
+      "reason": "Ring Self-intersection[0.628906 0.333333]"
+    },
+    {
+      "image": "frame_0838_pct64.43.jpg",
+      "class": 1,
+      "reason": "Self-intersection[0.564063 0.290278]"
+    },
+    {
+      "image": "frame_0618_pct47.50.jpg",
+      "class": 4,
+      "reason": "Ring Self-intersection[0.746094 0.320833]"
+    },
+    {
+      "image": "frame_0497_pct38.18.jpg",
+      "class": 3,
+      "reason": "Ring Self-intersection[0.524219 0.325]"
+    },
+    {
+      "image": "frame_0453_pct34.80.jpg",
+      "class": 2,
+      "reason": "Ring Self-intersection[0.571875 0.290278]"
+    },
+    {
+      "image": "frame_1104_pct84.91.jpg",
+      "class": 4,
+      "reason": "Self-intersection[0.16357378128 0.27829870832]"
+    },
+    {
+      "image": "frame_0172_pct13.16.jpg",
+      "class": 0,
+      "reason": "Self-intersection[0.523668475081542 0.298457313063724]"
+    },
+    {
+      "image": "frame_0196_pct15.01.jpg",
+      "class": 0,
+      "reason": "Self-intersection[0.548435593952484 0.306251096895032]"
+    },
+    {
+      "image": "frame_1148_pct88.30.jpg",
+      "class": 4,
+      "reason": "Self-intersection[0.10165971872 0.28385370832]"
+    },
+    {
+      "image": "frame_0104_pct07.93.jpg",
+      "class": 0,
+      "reason": "Self-intersection[0.524219 0.286111]"
+    },
+    {
+      "image": "frame_1072_pct82.45.jpg",
+      "class": 0,
+      "reason": "Ring Self-intersection[0.413281 0.329167]"
+    },
+    {
+      "image": "frame_0743_pct57.12.jpg",
+      "class": 4,
+      "reason": "Ring Self-intersection[0.315625 0.284722]"
+    },
+    {
+      "image": "frame_0100_pct07.62.jpg",
+      "class": 0,
+      "reason": "Ring Self-intersection[0.516406 0.286111]"
+    },
+    {
+      "image": "frame_0484_pct37.18.jpg",
+      "class": 0,
+      "reason": "Ring Self-intersection[0.491406 0.294444]"
+    },
+    {
+      "image": "frame_0209_pct16.01.jpg",
+      "class": 2,
+      "reason": "Ring Self-intersection[0.530469 0.275]"
+    },
+    {
+      "image": "frame_0498_pct38.26.jpg",
+      "class": 4,
+      "reason": "Ring Self-intersection[0.525 0.290278]"
+    },
+    {
+      "image": "frame_0498_pct38.26.jpg",
+      "class": 2,
+      "reason": "Ring Self-intersection[0.577344 0.313889]"
+    },
+    {
+      "image": "frame_0665_pct51.11.jpg",
+      "class": 0,
+      "reason": "Self-intersection[0.51875 0.290278]"
+    },
+    {
+      "image": "frame_0342_pct26.25.jpg",
+      "class": 3,
+      "reason": "Self-intersection[0.472142754770502 0.255100657016614]"
+    },
+    {
+      "image": "frame_0229_pct17.55.jpg",
+      "class": 2,
+      "reason": "Self-intersection[0.692294838262558 0.26307463176481]"
+    },
+    {
+      "image": "frame_0346_pct26.56.jpg",
+      "class": 3,
+      "reason": "Self-intersection[0.527163235178713 0.267891728897889]"
+    },
+    {
+      "image": "frame_0897_pct68.98.jpg",
+      "class": 0,
+      "reason": "Ring Self-intersection[0.491406 0.288889]"
+    },
+    {
+      "image": "frame_0972_pct74.75.jpg",
+      "class": 2,
+      "reason": "Self-intersection[0.559375133287823 0.326389474101886]"
+    },
+    {
+      "image": "frame_0087_pct06.62.jpg",
+      "class": 0,
+      "reason": "Self-intersection[0.511381211116301 0.267342577767398]"
+    },
+    {
+      "image": "frame_0337_pct25.86.jpg",
+      "class": 3,
+      "reason": "Self-intersection[0.431444772637264 0.266944]"
+    },
+    {
+      "image": "frame_0266_pct20.40.jpg",
+      "class": 2,
+      "reason": "Self-intersection[0.571189150213831 0.279505325408205]"
+    },
+    {
+      "image": "frame_0367_pct28.17.jpg",
+      "class": 4,
+      "reason": "Ring Self-intersection[0.979688 0.297222]"
+    },
+    {
+      "image": "frame_0425_pct32.64.jpg",
+      "class": 3,
+      "reason": "Self-intersection[0.395298367379764 0.28003350133624]"
+    },
+    {
+      "image": "frame_0107_pct08.16.jpg",
+      "class": 0,
+      "reason": "Self-intersection[0.483594 0.290278]"
+    },
+    {
+      "image": "frame_0496_pct38.11.jpg",
+      "class": 2,
+      "reason": "Self-intersection[0.578301852989381 0.306499366906226]"
+    },
+    {
+      "image": "frame_0802_pct61.66.jpg",
+      "class": 1,
+      "reason": "Ring Self-intersection[0.505469 0.283333]"
+    },
+    {
+      "image": "frame_0227_pct17.40.jpg",
+      "class": 1,
+      "reason": "Ring Self-intersection[0.675781 0.270833]"
+    },
+    {
+      "image": "frame_1108_pct85.22.jpg",
+      "class": 4,
+      "reason": "Ring Self-intersection[0.370312 0.255556]"
+    },
+    {
+      "image": "frame_0321_pct24.63.jpg",
+      "class": 2,
+      "reason": "Ring Self-intersection[0.349219 0.313889]"
+    },
+    {
+      "image": "frame_0347_pct26.63.jpg",
+      "class": 2,
+      "reason": "Ring Self-intersection[0.535156 0.275]"
+    },
+    {
+      "image": "frame_0371_pct28.48.jpg",
+      "class": 4,
+      "reason": "Self-intersection[0.598437 0.277778]"
+    },
+    {
+      "image": "frame_0371_pct28.48.jpg",
+      "class": 0,
+      "reason": "Ring Self-intersection[0.523438 0.275]"
+    },
+    {
+      "image": "frame_0184_pct14.09.jpg",
+      "class": 2,
+      "reason": "Self-intersection[0.576690303674824 0.29478606104478]"
+    },
+    {
+      "image": "frame_0518_pct39.80.jpg",
+      "class": 1,
+      "reason": "Self-intersection[0.42578087505999 0.286110777795553]"
+    },
+    {
+      "image": "frame_0415_pct31.87.jpg",
+      "class": 4,
+      "reason": "Self-intersection[0.361719 0.329167]"
+    },
+    {
+      "image": "frame_0318_pct24.40.jpg",
+      "class": 1,
+      "reason": "Ring Self-intersection[0.39375 0.329167]"
+    },
+    {
+      "image": "frame_0847_pct65.13.jpg",
+      "class": 4,
+      "reason": "Self-intersection[0.513409219713512 0.25984356747477]"
+    },
+    {
+      "image": "frame_0261_pct20.01.jpg",
+      "class": 0,
+      "reason": "Self-intersection[0.515837624553237 0.295707157592885]"
+    },
+    {
+      "image": "frame_0906_pct69.67.jpg",
+      "class": 4,
+      "reason": "Ring Self-intersection[0.49375 0.277778]"
+    },
+    {
+      "image": "frame_0231_pct17.71.jpg",
+      "class": 4,
+      "reason": "Ring Self-intersection[0.472656 0.279167]"
+    },
+    {
+      "image": "frame_0913_pct70.21.jpg",
+      "class": 4,
+      "reason": "Ring Self-intersection[0.010156 0.665278]"
+    },
+    {
+      "image": "frame_0271_pct20.78.jpg",
+      "class": 0,
+      "reason": "Self-intersection[0.479687 0.301389]"
+    },
+    {
+      "image": "frame_0271_pct20.78.jpg",
+      "class": 2,
+      "reason": "Ring Self-intersection[0.538281 0.294444]"
+    },
+    {
+      "image": "frame_0458_pct35.18.jpg",
+      "class": 2,
+      "reason": "Ring Self-intersection[0.55 0.313889]"
+    },
+    {
+      "image": "frame_0149_pct11.39.jpg",
+      "class": 1,
+      "reason": "Self-intersection[0.525 0.298611]"
+    },
+    {
+      "image": "frame_0783_pct60.20.jpg",
+      "class": 4,
+      "reason": "Self-intersection[0.084375 0.266667]"
+    },
+    {
+      "image": "frame_0783_pct60.20.jpg",
+      "class": 4,
+      "reason": "Self-intersection[0.521374662201517 0.279466344273303]"
+    },
+    {
+      "image": "frame_0412_pct31.64.jpg",
+      "class": 2,
+      "reason": "Ring Self-intersection[0.578906 0.329167]"
+    },
+    {
+      "image": "frame_0412_pct31.64.jpg",
+      "class": 1,
+      "reason": "Ring Self-intersection[0.464844 0.313889]"
+    },
+    {
+      "image": "frame_0605_pct46.50.jpg",
+      "class": 2,
+      "reason": "Ring Self-intersection[0.563281 0.294444]"
+    },
+    {
+      "image": "frame_0492_pct37.80.jpg",
+      "class": 3,
+      "reason": "Ring Self-intersection[0.509375 0.309722]"
+    },
+    {
+      "image": "frame_0892_pct68.59.jpg",
+      "class": 4,
+      "reason": "Ring Self-intersection[0.39375 0.286111]"
+    },
+    {
+      "image": "frame_0892_pct68.59.jpg",
+      "class": 0,
+      "reason": "Ring Self-intersection[0.516406 0.290278]"
+    },
+    {
+      "image": "frame_0574_pct44.11.jpg",
+      "class": 0,
+      "reason": "Self-intersection[0.494335695332187 0.294965020839166]"
+    },
+    {
+      "image": "frame_1102_pct84.76.jpg",
+      "class": 4,
+      "reason": "Ring Self-intersection[0.007031 0.277778]"
+    },
+    {
+      "image": "frame_0309_pct23.71.jpg",
+      "class": 4,
+      "reason": "Ring Self-intersection[0.514062 0.298611]"
+    },
+    {
+      "image": "frame_0309_pct23.71.jpg",
+      "class": 2,
+      "reason": "Ring Self-intersection[0.508594 0.309722]"
+    },
+    {
+      "image": "frame_0098_pct07.46.jpg",
+      "class": 2,
+      "reason": "Self-intersection[0.577388544849679 0.279325388025045]"
+    },
+    {
+      "image": "frame_0940_pct72.29.jpg",
+      "class": 4,
+      "reason": "Self-intersection[0.202344 0.251389]"
+    },
+    {
+      "image": "frame_0274_pct21.02.jpg",
+      "class": 2,
+      "reason": "Self-intersection[0.537723292107294 0.279563857900591]"
+    },
+    {
+      "image": "frame_0789_pct60.66.jpg",
+      "class": 0,
+      "reason": "Self-intersection[0.476983204797142 0.283119124388067]"
+    },
+    {
+      "image": "frame_0905_pct69.59.jpg",
+      "class": 4,
+      "reason": "Ring Self-intersection[0.220312 0.231944]"
+    },
+    {
+      "image": "frame_0434_pct33.33.jpg",
+      "class": 3,
+      "reason": "Self-intersection[0.523944880086563 0.286111]"
+    },
+    {
+      "image": "frame_0396_pct30.41.jpg",
+      "class": 2,
+      "reason": "Ring Self-intersection[0.571875 0.313889]"
+    },
+    {
+      "image": "frame_0875_pct67.28.jpg",
+      "class": 0,
+      "reason": "Self-intersection[0.535625604982719 0.281944]"
+    },
+    {
+      "image": "frame_0388_pct29.79.jpg",
+      "class": 1,
+      "reason": "Ring Self-intersection[0.488281 0.290278]"
+    },
+    {
+      "image": "frame_0345_pct26.48.jpg",
+      "class": 3,
+      "reason": "Self-intersection[0.54759318531807 0.267330790319129]"
+    },
+    {
+      "image": "frame_0328_pct25.17.jpg",
+      "class": 2,
+      "reason": "Ring Self-intersection[0.391406 0.309722]"
+    },
+    {
+      "image": "frame_0510_pct39.18.jpg",
+      "class": 4,
+      "reason": "Ring Self-intersection[0.216406 0.406944]"
+    },
+    {
+      "image": "frame_0510_pct39.18.jpg",
+      "class": 1,
+      "reason": "Self-intersection[0.483961680762643 0.306536638961057]"
+    },
+    {
+      "image": "frame_0609_pct46.81.jpg",
+      "class": 2,
+      "reason": "Self-intersection[0.553819121190484 0.316357973965641]"
+    },
+    {
+      "image": "frame_0800_pct61.51.jpg",
+      "class": 4,
+      "reason": "Ring Self-intersection[0.30625 0.2625]"
+    },
+    {
+      "image": "frame_0569_pct43.72.jpg",
+      "class": 4,
+      "reason": "Ring Self-intersection[0.964063 0.318056]"
+    },
+    {
+      "image": "frame_0619_pct47.57.jpg",
+      "class": 0,
+      "reason": "Self-intersection[0.424457843863203 0.29527017100824]"
+    },
+    {
+      "image": "frame_1141_pct87.76.jpg",
+      "class": 4,
+      "reason": "Ring Self-intersection[0.183594 0.2625]"
+    },
+    {
+      "image": "frame_0338_pct25.94.jpg",
+      "class": 3,
+      "reason": "Self-intersection[0.397920886920838 0.26542757283562]"
+    },
+    {
+      "image": "frame_0081_pct06.16.jpg",
+      "class": 0,
+      "reason": "Ring Self-intersection[0.514844 0.273611]"
+    },
+    {
+      "image": "frame_0413_pct31.72.jpg",
+      "class": 2,
+      "reason": "Ring Self-intersection[0.598437 0.313889]"
+    },
+    {
+      "image": "frame_1063_pct81.75.jpg",
+      "class": 4,
+      "reason": "Self-intersection[0.045312 0.938889]"
+    },
+    {
+      "image": "frame_0959_pct73.75.jpg",
+      "class": 4,
+      "reason": "Ring Self-intersection[0.151562 0.230556]"
+    },
+    {
+      "image": "frame_0959_pct73.75.jpg",
+      "class": 2,
+      "reason": "Self-intersection[0.58646444493688 0.295380276590687]"
+    },
+    {
+      "image": "frame_0878_pct67.51.jpg",
+      "class": 2,
+      "reason": "Ring Self-intersection[0.561719 0.286111]"
+    },
+    {
+      "image": "frame_0878_pct67.51.jpg",
+      "class": 0,
+      "reason": "Self-intersection[0.506684291214965 0.282098105120772]"
+    },
+    {
+      "image": "frame_0967_pct74.36.jpg",
+      "class": 4,
+      "reason": "Self-intersection[0.205469 0.184722]"
+    },
+    {
+      "image": "frame_0967_pct74.36.jpg",
+      "class": 2,
+      "reason": "Ring Self-intersection[0.555469 0.333333]"
+    },
+    {
+      "image": "frame_0976_pct75.06.jpg",
+      "class": 4,
+      "reason": "Ring Self-intersection[0.275 0.247222]"
+    },
+    {
+      "image": "frame_0603_pct46.34.jpg",
+      "class": 2,
+      "reason": "Self-intersection[0.565625 0.327778]"
+    },
+    {
+      "image": "frame_0170_pct13.01.jpg",
+      "class": 2,
+      "reason": "Ring Self-intersection[0.520312 0.255556]"
+    },
+    {
+      "image": "frame_0456_pct35.03.jpg",
+      "class": 4,
+      "reason": "Self-intersection[0.579082436351625 0.29471286461043]"
+    },
+    {
+      "image": "frame_1109_pct85.29.jpg",
+      "class": 4,
+      "reason": "Self-intersection[0.153906 0.270833]"
+    },
+    {
+      "image": "frame_0846_pct65.05.jpg",
+      "class": 2,
+      "reason": "Self-intersection[0.590644408091908 0.299627426073926]"
+    },
+    {
+      "image": "frame_0896_pct68.90.jpg",
+      "class": 4,
+      "reason": "Ring Self-intersection[0.025781 0.688889]"
+    },
+    {
+      "image": "frame_0795_pct61.12.jpg",
+      "class": 0,
+      "reason": "Self-intersection[0.478125 0.27747588646768]"
+    },
+    {
+      "image": "frame_0061_pct04.62.jpg",
+      "class": 4,
+      "reason": "Ring Self-intersection[0.960156 0.2125]"
+    },
+    {
+      "image": "frame_1124_pct86.45.jpg",
+      "class": 4,
+      "reason": "Ring Self-intersection[0.175781 0.277778]"
+    },
+    {
+      "image": "frame_0604_pct46.42.jpg",
+      "class": 2,
+      "reason": "Ring Self-intersection[0.542969 0.294444]"
+    },
+    {
+      "image": "frame_0844_pct64.89.jpg",
+      "class": 4,
+      "reason": "Self-intersection[0.532741277177654 0.264941082918436]"
+    },
+    {
+      "image": "frame_0844_pct64.89.jpg",
+      "class": 2,
+      "reason": "Self-intersection[0.56107720732814 0.287811452234998]"
+    },
+    {
+      "image": "frame_0174_pct13.32.jpg",
+      "class": 2,
+      "reason": "Ring Self-intersection[0.585938 0.275]"
+    },
+    {
+      "image": "frame_0994_pct76.44.jpg",
+      "class": 2,
+      "reason": "Ring Self-intersection[0.566406 0.298611]"
+    },
+    {
+      "image": "frame_1110_pct85.37.jpg",
+      "class": 4,
+      "reason": "Self-intersection[0.001563 0.309722]"
+    },
+    {
+      "image": "frame_0429_pct32.95.jpg",
+      "class": 3,
+      "reason": "Ring Self-intersection[0.474219 0.305556]"
+    },
+    {
+      "image": "frame_0118_pct09.01.jpg",
+      "class": 0,
+      "reason": "Ring Self-intersection[0.507031 0.313889]"
+    },
+    {
+      "image": "frame_0987_pct75.90.jpg",
+      "class": 2,
+      "reason": "Ring Self-intersection[0.56875 0.298611]"
+    },
+    {
+      "image": "frame_0868_pct66.74.jpg",
+      "class": 4,
+      "reason": "Self-intersection[0.449375259984639 0.264444813364055]"
+    },
+    {
+      "image": "frame_0482_pct37.03.jpg",
+      "class": 3,
+      "reason": "Ring Self-intersection[0.532813 0.309722]"
+    },
+    {
+      "image": "frame_0409_pct31.41.jpg",
+      "class": 2,
+      "reason": "Ring Self-intersection[0.58125 0.309722]"
+    },
+    {
+      "image": "frame_0409_pct31.41.jpg",
+      "class": 3,
+      "reason": "Self-intersection[0.487125277916196 0.29441554866587]"
+    },
+    {
+      "image": "frame_0238_pct18.24.jpg",
+      "class": 2,
+      "reason": "Self-intersection[0.553124333191066 0.273610407170295]"
+    },
+    {
+      "image": "frame_0397_pct30.48.jpg",
+      "class": 4,
+      "reason": "Ring Self-intersection[0.501563 0.301389]"
+    },
+    {
+      "image": "frame_0397_pct30.48.jpg",
+      "class": 2,
+      "reason": "Ring Self-intersection[0.5 0.309722]"
+    },
+    {
+      "image": "frame_0843_pct64.82.jpg",
+      "class": 4,
+      "reason": "Ring Self-intersection[0.396094 0.268056]"
+    },
+    {
+      "image": "frame_0504_pct38.72.jpg",
+      "class": 1,
+      "reason": "Ring Self-intersection[0.550781 0.318056]"
+    },
+    {
+      "image": "frame_0467_pct35.87.jpg",
+      "class": 1,
+      "reason": "Self-intersection[0.512465113660221 0.281956405818216]"
+    },
+    {
+      "image": "frame_0390_pct29.94.jpg",
+      "class": 4,
+      "reason": "Self-intersection[0.552344 0.313889]"
+    },
+    {
+      "image": "frame_0810_pct62.28.jpg",
+      "class": 4,
+      "reason": "Self-intersection[0.442969 0.3375]"
+    },
+    {
+      "image": "frame_0461_pct35.41.jpg",
+      "class": 4,
+      "reason": "Ring Self-intersection[0.4875 0.318056]"
+    },
+    {
+      "image": "frame_0522_pct40.11.jpg",
+      "class": 2,
+      "reason": "Ring Self-intersection[0.554688 0.341667]"
+    },
+    {
+      "image": "frame_1112_pct85.53.jpg",
+      "class": 4,
+      "reason": "Ring Self-intersection[0.247656 0.258333]"
+    },
+    {
+      "image": "frame_0611_pct46.96.jpg",
+      "class": 2,
+      "reason": "Ring Self-intersection[0.55 0.313889]"
+    },
+    {
+      "image": "frame_0259_pct19.86.jpg",
+      "class": 1,
+      "reason": "Self-intersection[0.661892506186887 0.798919578865026]"
+    },
+    {
+      "image": "frame_0405_pct31.10.jpg",
+      "class": 3,
+      "reason": "Self-intersection[0.438786304716004 0.30929314533011]"
+    },
+    {
+      "image": "frame_0632_pct48.57.jpg",
+      "class": 1,
+      "reason": "Ring Self-intersection[0.513281 0.315278]"
+    },
+    {
+      "image": "frame_0863_pct66.36.jpg",
+      "class": 4,
+      "reason": "Ring Self-intersection[0.19375 0.551389]"
+    },
+    {
+      "image": "frame_1127_pct86.68.jpg",
+      "class": 4,
+      "reason": "Ring Self-intersection[0.269531 0.258333]"
+    },
+    {
+      "image": "frame_0230_pct17.63.jpg",
+      "class": 0,
+      "reason": "Ring Self-intersection[0.530469 0.294444]"
+    },
+    {
+      "image": "frame_0590_pct45.34.jpg",
+      "class": 0,
+      "reason": "Ring Self-intersection[0.417187 0.341667]"
+    },
+    {
+      "image": "frame_0884_pct67.98.jpg",
+      "class": 4,
+      "reason": "Self-intersection[0.251563 0.231944]"
+    },
+    {
+      "image": "frame_0884_pct67.98.jpg",
+      "class": 0,
+      "reason": "Self-intersection[0.503550914255793 0.266667]"
+    },
+    {
+      "image": "frame_0148_pct11.32.jpg",
+      "class": 4,
+      "reason": "Ring Self-intersection[0.583594 0.286111]"
+    },
+    {
+      "image": "frame_0867_pct66.67.jpg",
+      "class": 4,
+      "reason": "Self-intersection[0.394574295752439 0.255863554865469]"
+    },
+    {
+      "image": "frame_0989_pct76.06.jpg",
+      "class": 0,
+      "reason": "Ring Self-intersection[0.450781 0.294444]"
+    },
+    {
+      "image": "frame_0324_pct24.86.jpg",
+      "class": 0,
+      "reason": "Self-intersection[0.218092326866074 0.322660670978173]"
+    },
+    {
+      "image": "frame_1055_pct81.14.jpg",
+      "class": 1,
+      "reason": "Self-intersection[0.505497729567873 0.31417324363988]"
+    },
+    {
+      "image": "frame_0294_pct22.55.jpg",
+      "class": 2,
+      "reason": "Self-intersection[0.564416500554466 0.306027409510213]"
+    },
+    {
+      "image": "frame_0934_pct71.82.jpg",
+      "class": 2,
+      "reason": "Ring Self-intersection[0.583594 0.309722]"
+    },
+    {
+      "image": "frame_0758_pct58.28.jpg",
+      "class": 4,
+      "reason": "Ring Self-intersection[0.349219 0.259722]"
+    },
+    {
+      "image": "frame_0803_pct61.74.jpg",
+      "class": 1,
+      "reason": "Ring Self-intersection[0.521094 0.283333]"
+    },
+    {
+      "image": "frame_0964_pct74.13.jpg",
+      "class": 2,
+      "reason": "Ring Self-intersection[0.55 0.313889]"
+    },
+    {
+      "image": "frame_0477_pct36.64.jpg",
+      "class": 1,
+      "reason": "Self-intersection[0.49375 0.297222]"
+    },
+    {
+      "image": "frame_0052_pct03.93.jpg",
+      "class": 2,
+      "reason": "Self-intersection[0.572268208728493 0.280788847754644]"
+    },
+    {
+      "image": "frame_0038_pct02.85.jpg",
+      "class": 2,
+      "reason": "Self-intersection[0.536101473448738 0.25643221021412]"
+    },
+    {
+      "image": "frame_0523_pct40.18.jpg",
+      "class": 1,
+      "reason": "Ring Self-intersection[0.466406 0.331944]"
+    },
+    {
+      "image": "frame_0192_pct14.70.jpg",
+      "class": 2,
+      "reason": "Self-intersection[0.577517715042139 0.303292623401287]"
+    },
+    {
+      "image": "frame_0377_pct28.94.jpg",
+      "class": 3,
+      "reason": "Self-intersection[0.49854099691358 0.286111]"
+    },
+    {
+      "image": "frame_0588_pct45.19.jpg",
+      "class": 3,
+      "reason": "Self-intersection[0.862053632672966 0.627182520755867]"
+    },
+    {
+      "image": "frame_0973_pct74.83.jpg",
+      "class": 2,
+      "reason": "Ring Self-intersection[0.49375 0.313889]"
+    },
+    {
+      "image": "frame_1155_pct88.84.jpg",
+      "class": 4,
+      "reason": "Ring Self-intersection[0.152344 0.226389]"
+    },
+    {
+      "image": "frame_0529_pct40.64.jpg",
+      "class": 4,
+      "reason": "Self-intersection[0.335872299242741 0.309916663719778]"
+    },
+    {
+      "image": "frame_0529_pct40.64.jpg",
+      "class": 2,
+      "reason": "Ring Self-intersection[0.507031 0.313889]"
+    },
+    {
+      "image": "frame_0763_pct58.66.jpg",
+      "class": 1,
+      "reason": "Ring Self-intersection[0.421875 0.290278]"
+    },
+    {
+      "image": "frame_0048_pct03.62.jpg",
+      "class": 2,
+      "reason": "Ring Self-intersection[0.533594 0.270833]"
+    },
+    {
+      "image": "frame_0332_pct25.48.jpg",
+      "class": 0,
+      "reason": "Self-intersection[0.343933736486682 0.306536084767625]"
+    },
+    {
+      "image": "frame_0295_pct22.63.jpg",
+      "class": 4,
+      "reason": "Ring Self-intersection[0.565625 0.318056]"
+    },
+    {
+      "image": "frame_0961_pct73.90.jpg",
+      "class": 2,
+      "reason": "Ring Self-intersection[0.582031 0.298611]"
+    },
+    {
+      "image": "frame_0766_pct58.89.jpg",
+      "class": 1,
+      "reason": "Ring Self-intersection[0.414062 0.290278]"
+    },
+    {
+      "image": "frame_0178_pct13.63.jpg",
+      "class": 4,
+      "reason": "Self-intersection[0.594496410088031 0.281790227689682]"
+    },
+    {
+      "image": "frame_0787_pct60.51.jpg",
+      "class": 4,
+      "reason": "Self-intersection[0.231369994422707 0.281837368156205]"
+    },
+    {
+      "image": "frame_1075_pct82.68.jpg",
+      "class": 4,
+      "reason": "Ring Self-intersection[0.14375 0.226389]"
+    },
+    {
+      "image": "frame_0567_pct43.57.jpg",
+      "class": 4,
+      "reason": "Self-intersection[0.482031 0.27222244448]"
+    },
+    {
+      "image": "frame_1024_pct78.75.jpg",
+      "class": 4,
+      "reason": "Ring Self-intersection[0.225781 0.145833]"
+    },
+    {
+      "image": "frame_1024_pct78.75.jpg",
+      "class": 2,
+      "reason": "Self-intersection[0.581640625 0.310242875]"
+    },
+    {
+      "image": "frame_0592_pct45.50.jpg",
+      "class": 4,
+      "reason": "Ring Self-intersection[0.823438 0.309722]"
+    },
+    {
+      "image": "frame_0592_pct45.50.jpg",
+      "class": 2,
+      "reason": "Self-intersection[0.624479388865188 0.30625048144198]"
+    },
+    {
+      "image": "frame_0700_pct53.81.jpg",
+      "class": 4,
+      "reason": "Self-intersection[0.345313 0.294444]"
+    },
+    {
+      "image": "frame_0852_pct65.51.jpg",
+      "class": 4,
+      "reason": "Ring Self-intersection[0.335156 0.2875]"
+    },
+    {
+      "image": "frame_0852_pct65.51.jpg",
+      "class": 4,
+      "reason": "Self-intersection[0.544647785020863 0.279285621464782]"
+    },
+    {
+      "image": "frame_1088_pct83.68.jpg",
+      "class": 4,
+      "reason": "Self-intersection[0.00703068749999998 0.288889]"
+    },
+    {
+      "image": "frame_1117_pct85.91.jpg",
+      "class": 4,
+      "reason": "Self-intersection[0.144531 0.251389]"
+    },
+    {
+      "image": "frame_0374_pct28.71.jpg",
+      "class": 4,
+      "reason": "Ring Self-intersection[0.532813 0.290278]"
+    },
+    {
+      "image": "frame_0205_pct15.70.jpg",
+      "class": 4,
+      "reason": "Ring Self-intersection[0.519531 0.279167]"
+    },
+    {
+      "image": "frame_0393_pct30.18.jpg",
+      "class": 3,
+      "reason": "Self-intersection[0.455467042645157 0.293246381943117]"
+    },
+    {
+      "image": "frame_0293_pct22.48.jpg",
+      "class": 0,
+      "reason": "Ring Self-intersection[0.450781 0.293056]"
+    },
+    {
+      "image": "frame_0293_pct22.48.jpg",
+      "class": 1,
+      "reason": "Self-intersection[0.487834979610496 0.295634752857273]"
+    },
+    {
+      "image": "frame_0368_pct28.25.jpg",
+      "class": 3,
+      "reason": "Self-intersection[0.507812858155565 0.291667]"
+    },
+    {
+      "image": "frame_0244_pct18.71.jpg",
+      "class": 0,
+      "reason": "Self-intersection[0.499219 0.294444]"
+    },
+    {
+      "image": "frame_0016_pct01.15.jpg",
+      "class": 2,
+      "reason": "Self-intersection[0.537648798746493 0.264219642718607]"
+    },
+    {
+      "image": "frame_0565_pct43.42.jpg",
+      "class": 2,
+      "reason": "Self-intersection[0.613625829885702 0.303303410026981]"
+    },
+    {
+      "image": "frame_0133_pct10.16.jpg",
+      "class": 0,
+      "reason": "Self-intersection[0.524219 0.302778]"
+    },
+    {
+      "image": "frame_0235_pct18.01.jpg",
+      "class": 1,
+      "reason": "Self-intersection[0.607031 0.286111]"
+    },
+    {
+      "image": "frame_0387_pct29.71.jpg",
+      "class": 2,
+      "reason": "Self-intersection[0.595037797661466 0.295119784273705]"
+    },
+    {
+      "image": "frame_0521_pct40.03.jpg",
+      "class": 2,
+      "reason": "Self-intersection[0.575186741972286 0.346497237130614]"
+    },
+    {
+      "image": "frame_0661_pct50.81.jpg",
+      "class": 0,
+      "reason": "Ring Self-intersection[0.495312 0.298611]"
+    },
+    {
+      "image": "frame_0414_pct31.79.jpg",
+      "class": 1,
+      "reason": "Ring Self-intersection[0.440625 0.313889]"
+    },
+    {
+      "image": "frame_0470_pct36.10.jpg",
+      "class": 1,
+      "reason": "Self-intersection[0.522916666666667 0.309722]"
+    },
+    {
+      "image": "frame_0968_pct74.44.jpg",
+      "class": 2,
+      "reason": "Ring Self-intersection[0.586719 0.329167]"
+    },
+    {
+      "image": "frame_0375_pct28.79.jpg",
+      "class": 3,
+      "reason": "Self-intersection[0.550370230411417 0.294906534032693]"
+    },
+    {
+      "image": "frame_0893_pct68.67.jpg",
+      "class": 4,
+      "reason": "Self-intersection[0.507812 0.286111]"
+    },
+    {
+      "image": "frame_0503_pct38.64.jpg",
+      "class": 4,
+      "reason": "Ring Self-intersection[0.517188 0.286111]"
+    },
+    {
+      "image": "frame_0479_pct36.80.jpg",
+      "class": 4,
+      "reason": "Ring Self-intersection[0.573438 0.294444]"
+    },
+    {
+      "image": "frame_0969_pct74.52.jpg",
+      "class": 4,
+      "reason": "Ring Self-intersection[0.05625 0.169444]"
+    },
+    {
+      "image": "frame_0422_pct32.41.jpg",
+      "class": 4,
+      "reason": "Ring Self-intersection[0.403906 0.283333]"
+    },
+    {
+      "image": "frame_0422_pct32.41.jpg",
+      "class": 1,
+      "reason": "Self-intersection[0.343330110459205 0.303633788652255]"
+    },
+    {
+      "image": "frame_0513_pct39.41.jpg",
+      "class": 3,
+      "reason": "Self-intersection[0.390748301946521 0.298976329359467]"
+    },
+    {
+      "image": "frame_1070_pct82.29.jpg",
+      "class": 0,
+      "reason": "Self-intersection[0.42916660416 0.309722]"
+    },
+    {
+      "image": "frame_0394_pct30.25.jpg",
+      "class": 2,
+      "reason": "Ring Self-intersection[0.554688 0.313889]"
+    },
+    {
+      "image": "frame_0394_pct30.25.jpg",
+      "class": 3,
+      "reason": "Self-intersection[0.448872815954867 0.293004245897747]"
+    },
+    {
+      "image": "frame_0613_pct47.11.jpg",
+      "class": 0,
+      "reason": "Ring Self-intersection[0.371094 0.2625]"
+    },
+    {
+      "image": "frame_0297_pct22.79.jpg",
+      "class": 4,
+      "reason": "Ring Self-intersection[0.564844 0.270833]"
+    },
+    {
+      "image": "frame_0459_pct35.26.jpg",
+      "class": 2,
+      "reason": "Ring Self-intersection[0.507031 0.309722]"
+    },
+    {
+      "image": "frame_0459_pct35.26.jpg",
+      "class": 3,
+      "reason": "Ring Self-intersection[0.432812 0.309722]"
+    },
+    {
+      "image": "frame_0459_pct35.26.jpg",
+      "class": 1,
+      "reason": "Self-intersection[0.433594270692885 0.309723444273049]"
+    },
+    {
+      "image": "frame_1150_pct88.45.jpg",
+      "class": 4,
+      "reason": "Ring Self-intersection[0.007812 0.238889]"
+    },
+    {
+      "image": "frame_0860_pct66.13.jpg",
+      "class": 4,
+      "reason": "Self-intersection[0.405077796831873 0.380556]"
+    },
+    {
+      "image": "frame_0992_pct76.29.jpg",
+      "class": 2,
+      "reason": "Ring Self-intersection[0.561719 0.313889]"
+    },
+    {
+      "image": "frame_0218_pct16.70.jpg",
+      "class": 0,
+      "reason": "Self-intersection[0.374147807752878 0.294823358176161]"
+    },
+    {
+      "image": "frame_0466_pct35.80.jpg",
+      "class": 3,
+      "reason": "Ring Self-intersection[0.422656 0.309722]"
+    },
+    {
+      "image": "frame_0862_pct66.28.jpg",
+      "class": 4,
+      "reason": "Ring Self-intersection[0.060156 0.290278]"
+    },
+    {
+      "image": "frame_0804_pct61.81.jpg",
+      "class": 4,
+      "reason": "Ring Self-intersection[0.276562 0.269444]"
+    },
+    {
+      "image": "frame_0804_pct61.81.jpg",
+      "class": 1,
+      "reason": "Self-intersection[0.497656 0.270833]"
+    },
+    {
+      "image": "frame_1111_pct85.45.jpg",
+      "class": 4,
+      "reason": "Ring Self-intersection[0.038281 0.2375]"
+    },
+    {
+      "image": "frame_0932_pct71.67.jpg",
+      "class": 4,
+      "reason": "Self-intersection[0.522051237733729 0.279354968868079]"
+    },
+    {
+      "image": "frame_0848_pct65.20.jpg",
+      "class": 4,
+      "reason": "Self-intersection[0.509375 0.270833]"
+    },
+    {
+      "image": "frame_0695_pct53.42.jpg",
+      "class": 2,
+      "reason": "Self-intersection[0.646090401055868 0.312494669140774]"
+    },
+    {
+      "image": "frame_0548_pct42.11.jpg",
+      "class": 2,
+      "reason": "Self-intersection[0.569935296082453 0.29932964318581]"
+    },
+    {
+      "image": "frame_0548_pct42.11.jpg",
+      "class": 0,
+      "reason": "Ring Self-intersection[0.260156 0.430556]"
+    },
+    {
+      "image": "frame_0319_pct24.48.jpg",
+      "class": 0,
+      "reason": "Self-intersection[0.302711764705882 0.357516124197647]"
+    },
+    {
+      "image": "frame_0319_pct24.48.jpg",
+      "class": 1,
+      "reason": "Ring Self-intersection[0.369531 0.352778]"
+    },
+    {
+      "image": "frame_0319_pct24.48.jpg",
+      "class": 2,
+      "reason": "Ring Self-intersection[0.503125 0.356944]"
+    },
+    {
+      "image": "frame_1114_pct85.68.jpg",
+      "class": 4,
+      "reason": "Self-intersection[0.00634189964616427 0.251879327561545]"
+    },
+    {
+      "image": "frame_1132_pct87.07.jpg",
+      "class": 4,
+      "reason": "Ring Self-intersection[0.022656 0.2625]"
+    },
+    {
+      "image": "frame_0666_pct51.19.jpg",
+      "class": 4,
+      "reason": "Self-intersection[0.542969 0.290278]"
+    },
+    {
+      "image": "frame_0473_pct36.33.jpg",
+      "class": 0,
+      "reason": "Self-intersection[0.46380146873875 0.314213230020722]"
+    },
+    {
+      "image": "frame_0866_pct66.59.jpg",
+      "class": 4,
+      "reason": "Ring Self-intersection[0.479687 0.270833]"
+    },
+    {
+      "image": "frame_0866_pct66.59.jpg",
+      "class": 0,
+      "reason": "Self-intersection[0.546875 0.270833]"
+    },
+    {
+      "image": "frame_1140_pct87.68.jpg",
+      "class": 4,
+      "reason": "Ring Self-intersection[0.277344 0.273611]"
+    },
+    {
+      "image": "frame_0682_pct52.42.jpg",
+      "class": 4,
+      "reason": "Self-intersection[0.421094149933209 0.294444533309162]"
+    },
+    {
+      "image": "frame_0424_pct32.56.jpg",
+      "class": 3,
+      "reason": "Self-intersection[0.378185136583586 0.272750903124669]"
+    },
+    {
+      "image": "frame_0084_pct06.39.jpg",
+      "class": 0,
+      "reason": "Ring Self-intersection[0.507031 0.266667]"
+    },
+    {
+      "image": "frame_0865_pct66.51.jpg",
+      "class": 4,
+      "reason": "Ring Self-intersection[0.342187 0.404167]"
+    },
+    {
+      "image": "frame_0063_pct04.77.jpg",
+      "class": 0,
+      "reason": "Self-intersection[0.475433834162493 0.293364479374828]"
+    },
+    {
+      "image": "frame_0730_pct56.12.jpg",
+      "class": 3,
+      "reason": "Self-intersection[0.909375 0.559722]"
+    },
+    {
+      "image": "frame_0197_pct15.09.jpg",
+      "class": 1,
+      "reason": "Self-intersection[0.544557277358328 0.293233478098682]"
+    },
+    {
+      "image": "frame_0963_pct74.06.jpg",
+      "class": 2,
+      "reason": "Ring Self-intersection[0.580469 0.298611]"
+    },
+    {
+      "image": "frame_0365_pct28.02.jpg",
+      "class": 3,
+      "reason": "Self-intersection[0.520849899813261 0.27883961198937]"
+    },
+    {
+      "image": "frame_0336_pct25.79.jpg",
+      "class": 2,
+      "reason": "Ring Self-intersection[0.457813 0.270833]"
+    },
+    {
+      "image": "frame_0850_pct65.36.jpg",
+      "class": 4,
+      "reason": "Ring Self-intersection[0.353125 0.294444]"
+    },
+    {
+      "image": "frame_0979_pct75.29.jpg",
+      "class": 2,
+      "reason": "Ring Self-intersection[0.570312 0.313889]"
+    },
+    {
+      "image": "frame_1097_pct84.37.jpg",
+      "class": 4,
+      "reason": "Ring Self-intersection[0.242188 0.270833]"
+    },
+    {
+      "image": "frame_0330_pct25.33.jpg",
+      "class": 4,
+      "reason": "Self-intersection[0.468917336745887 0.312996180255942]"
+    },
+    {
+      "image": "frame_0330_pct25.33.jpg",
+      "class": 0,
+      "reason": "Self-intersection[0.264062666666667 0.297222]"
+    },
+    {
+      "image": "frame_0369_pct28.33.jpg",
+      "class": 2,
+      "reason": "Ring Self-intersection[0.517969 0.290278]"
+    },
+    {
+      "image": "frame_0608_pct46.73.jpg",
+      "class": 2,
+      "reason": "Ring Self-intersection[0.546094 0.325]"
+    },
+    {
+      "image": "frame_0495_pct38.03.jpg",
+      "class": 3,
+      "reason": "Ring Self-intersection[0.525 0.309722]"
+    },
+    {
+      "image": "frame_0327_pct25.10.jpg",
+      "class": 0,
+      "reason": "Self-intersection[0.261801029787239 0.318201836567966]"
+    },
+    {
+      "image": "frame_0327_pct25.10.jpg",
+      "class": 2,
+      "reason": "Ring Self-intersection[0.383594 0.313889]"
+    },
+    {
+      "image": "frame_0514_pct39.49.jpg",
+      "class": 4,
+      "reason": "Ring Self-intersection[0.235937 0.344444]"
+    },
+    {
+      "image": "frame_0514_pct39.49.jpg",
+      "class": 1,
+      "reason": "Ring Self-intersection[0.421875 0.313889]"
+    },
+    {
+      "image": "frame_0601_pct46.19.jpg",
+      "class": 4,
+      "reason": "Self-intersection[0.594531 0.309722]"
+    },
+    {
+      "image": "frame_0601_pct46.19.jpg",
+      "class": 2,
+      "reason": "Self-intersection[0.58173825 0.31037305208]"
+    },
+    {
+      "image": "frame_1101_pct84.68.jpg",
+      "class": 4,
+      "reason": "Self-intersection[0.24343758000512 0.249722271121352]"
+    },
+    {
+      "image": "frame_0326_pct25.02.jpg",
+      "class": 1,
+      "reason": "Self-intersection[0.24970986098171 0.295607491303064]"
+    },
+    {
+      "image": "frame_0326_pct25.02.jpg",
+      "class": 2,
+      "reason": "Ring Self-intersection[0.396875 0.309722]"
+    },
+    {
+      "image": "frame_0620_pct47.65.jpg",
+      "class": 4,
+      "reason": "Self-intersection[0.522135333333333 0.277778]"
+    },
+    {
+      "image": "frame_0385_pct29.56.jpg",
+      "class": 3,
+      "reason": "Self-intersection[0.528107609045098 0.285937746459267]"
+    },
+    {
+      "image": "frame_0792_pct60.89.jpg",
+      "class": 4,
+      "reason": "Self-intersection[0.018526795940757 0.236904931980252]"
+    },
+    {
+      "image": "frame_0062_pct04.69.jpg",
+      "class": 2,
+      "reason": "Self-intersection[0.577599788451734 0.280089395607328]"
+    },
+    {
+      "image": "frame_0418_pct32.10.jpg",
+      "class": 2,
+      "reason": "Self-intersection[0.610831437100316 0.346398076547068]"
+    },
+    {
+      "image": "frame_0418_pct32.10.jpg",
+      "class": 1,
+      "reason": "Self-intersection[0.408995640971998 0.302590457680952]"
+    },
+    {
+      "image": "frame_0312_pct23.94.jpg",
+      "class": 2,
+      "reason": "Ring Self-intersection[0.532813 0.329167]"
+    },
+    {
+      "image": "frame_0780_pct59.97.jpg",
+      "class": 4,
+      "reason": "Self-intersection[0.0500195193766201 0.27093714499664]"
+    },
+    {
+      "image": "frame_0879_pct67.59.jpg",
+      "class": 0,
+      "reason": "Ring Self-intersection[0.492969 0.2625]"
+    },
+    {
+      "image": "frame_0564_pct43.34.jpg",
+      "class": 0,
+      "reason": "Self-intersection[0.467968416702219 0.297222148144198]"
+    },
+    {
+      "image": "frame_0811_pct62.35.jpg",
+      "class": 4,
+      "reason": "Ring Self-intersection[0.382812 0.308333]"
+    },
+    {
+      "image": "frame_1131_pct86.99.jpg",
+      "class": 4,
+      "reason": "Ring Self-intersection[0.121094 0.269444]"
+    }
+  ],
+  "invalid_polygon_policy": "Keep original vertices; Pillow polygon fill. Source unchanged. Report annotation defects.",
+  "missing_or_structurally_malformed_annotations": 0,
+  "train_split": "../../splits/65-35/train.txt",
+  "validation_split": "../../splits/65-35/val.txt",
+  "train_manifest_sha256": "3147cac004b6f5c8da40d3eb0b1e4a3b25b4eb259de0e03bbac8294677697b06",
+  "validation_manifest_sha256": "884ce7d3d37658b67fc0fd2e4edaa28ef7413ff77f124aca9527d9ad8cbf36a8",
+  "nearest_training_frame_gap": {
+    "min": 1,
+    "median": 1.0,
+    "max": 3,
+    "within_1_frame": 314
+  },
+  "limitation": "Frames from the same video with nearby train/validation frames; results are not independent test generalization."
+}

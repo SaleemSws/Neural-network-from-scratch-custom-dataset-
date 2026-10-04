@@ -1,0 +1,46 @@
+{
+  "unit_tests_return_code": 0,
+  "unit_tests_output": "test_ap_ties_grouped_without_order_bias (test_pipeline.PipelineChecks.test_ap_ties_grouped_without_order_bias) ... ok\ntest_empty_mask_loss_and_iou (test_pipeline.PipelineChecks.test_empty_mask_loss_and_iou) ... ok\ntest_mask_ap_false_positive_and_threshold_boundary (test_pipeline.PipelineChecks.test_mask_ap_false_positive_and_threshold_boundary) ... ok\ntest_odd_dimensions_and_every_layer_gradient (test_pipeline.PipelineChecks.test_odd_dimensions_and_every_layer_gradient) ... ok\ntest_selected_polygon_class_and_nearest_resize (test_pipeline.PipelineChecks.test_selected_polygon_class_and_nearest_resize) ... ok\n\n----------------------------------------------------------------------\nRan 5 tests in 0.316s\n\nOK\n",
+  "completed_epochs": 30,
+  "all_parameter_tensors_changed_from_seeded_random_initialization": true,
+  "parameter_tensors_checked": 44,
+  "validation_masks_checked": 350,
+  "split": "65:35",
+  "train_images": 650,
+  "validation_images": 350,
+  "split_disjoint_and_covers_all_1000_source_images": true,
+  "best_checkpoint_epoch": 26,
+  "checkpoint_sha256": "10279d5cdf2d4ba4e9bc77720e2e2b96e5543d6759d601421c3aaee3c91bedf3",
+  "evaluation_and_memory_match_new_checkpoint": true,
+  "cpu_standalone_inference": {
+    "original_resolution_output": [
+      1280,
+      720
+    ],
+    "binary_mask_matches_cuda": true
+  },
+  "original_resolution_mask_shape_check": true,
+  "full_resolution_forward_shape": [
+    1,
+    1,
+    720,
+    1280
+  ],
+  "frozen_validation_manifest_matches_checkpoint": true,
+  "source_copy_identity": {
+    "files_compared": 2003,
+    "all_sha256_equal": true,
+    "source_modified": false
+  },
+  "actual_commands": [
+    "prepare.py --split-65-35",
+    "train.py",
+    "inference.py",
+    "evaluation.py",
+    "measure_memory.py",
+    "python -m unittest discover -s tests -v",
+    "verify_submission.py --source ../dataset_seg"
+  ],
+  "incomplete_assignment_requirements": [],
+  "external_submission": "Not uploaded or published; local repository and ZIP prepared"
+}

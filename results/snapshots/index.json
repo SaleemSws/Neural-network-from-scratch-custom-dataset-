@@ -1,0 +1,17 @@
+[
+  {
+    "selection": "worst",
+    "image": "frame_1128_pct86.76.jpg",
+    "iou": 0.9208949016778913
+  },
+  {
+    "selection": "median",
+    "image": "frame_0865_pct66.51.jpg",
+    "iou": 0.984291410830161
+  },
+  {
+    "selection": "best",
+    "image": "frame_0242_pct18.55.jpg",
+    "iou": 0.9866997534868103
+  }
+]

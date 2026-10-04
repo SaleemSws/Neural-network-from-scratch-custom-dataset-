@@ -1,0 +1,40 @@
+{
+  "completed_epochs": 30,
+  "best_epoch": 26,
+  "best_low_resolution_val_iou": 0.9912322163581848,
+  "train_images": 650,
+  "validation_images": 350,
+  "parameter_count": 122465,
+  "training_seconds": 115.73319859994808,
+  "total_seconds_including_preparation": 131.1938511999906,
+  "device": "cuda",
+  "device_name": "NVIDIA GeForce GTX 1650",
+  "torch_version": "2.6.0+cu124",
+  "python": "3.11.8",
+  "first_epoch": {
+    "epoch": 1,
+    "lr": 0.001,
+    "seconds": 5.322185299999546,
+    "train_loss": 0.14309029281139374,
+    "train_bce": 0.16205254197120667,
+    "train_dice_loss": 0.12412796169519424,
+    "train_iou": 0.945216178894043,
+    "val_loss": 0.08249957114458084,
+    "val_bce": 0.09426896274089813,
+    "val_dice_loss": 0.07073017954826355,
+    "val_iou": 0.9652670621871948
+  },
+  "last_epoch": {
+    "epoch": 30,
+    "lr": 1.2711661792704668e-05,
+    "seconds": 3.634681500028819,
+    "train_loss": 0.003569910302758217,
+    "train_bce": 0.004400845151394606,
+    "train_dice_loss": 0.00273897428996861,
+    "train_iou": 0.9971099495887756,
+    "val_loss": 0.010703965090215206,
+    "val_bce": 0.015971878543496132,
+    "val_dice_loss": 0.005436045117676258,
+    "val_iou": 0.9911530017852783
+  }
+}
