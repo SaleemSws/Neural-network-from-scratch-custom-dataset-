@@ -542,4 +542,6 @@ splits/65-35/              frozen 650/350 manifests used for ALL reported result
 
 เอกสารเพิ่มเติม: [PyTorch TensorBoard / SummaryWriter](https://docs.pytorch.org/docs/2.6/tensorboard.html), [PyTorch installation](https://pytorch.org/get-started/locally/), [DATACARD ของข้อมูลที่ใช้จริง](data/DATACARD.md) และ [ข้อกำหนด assignment](assignment-spec.md)
 
-ส่ง repository หรือ submission ZIP ผ่าน GitHub / PSU Storage ตาม Brief แล้วใช้ URL ส่งใน MS Teams ตาม lecture slides โครงการนี้เตรียมไฟล์ local ไว้แล้ว ยังไม่มีการ upload/publish/ส่งแทนผู้ใช้ หากใช้ GitHub dataset ถูก gitignore ให้ใส่แหล่งดาวน์โหลด/แชร์ dataset ที่เข้าถึงได้ประกอบ ส่วน best checkpoint และภาพรายงานรวมไว้ใน repo
+Repository สำหรับส่งงาน: [SaleemSws/Neural-network-from-scratch-custom-dataset-](https://github.com/SaleemSws/Neural-network-from-scratch-custom-dataset-) โค้ด, best checkpoint, split manifests, ผลประเมิน และภาพรายงานอยู่ใน branch `main` สามารถส่ง URL นี้ใน MS Teams ตามช่องทางที่อาจารย์กำหนด
+
+Dataset เต็ม, validation masks/probabilities และ TensorBoard logs ไม่รวมใน Git repository โดยมีแหล่ง dataset ใน [DATACARD](data/DATACARD.md) ให้เตรียมไฟล์ตามขั้นตอนติดตั้งข้างต้น ส่วน submission ZIP ที่จัดเตรียมในเครื่องรวมข้อมูลและผลรันครบ ยังไม่ได้อัปโหลด ZIP เป็น GitHub Release และยังไม่ได้ส่ง URL เข้า MS Teams แทนผู้ใช้
