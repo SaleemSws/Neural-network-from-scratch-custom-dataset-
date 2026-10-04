@@ -502,46 +502,4 @@ splits/65-35/              frozen 650/350 manifests used for ALL reported result
 | [dataset_audit.json](results/dataset_audit.json) | annotation defects และ temporal proximity |
 | [verification.json](results/verification.json) | unit tests, all-layer weight updates, split/mask/checkpoint checks |
 
-การตรวจสอบรวม shape ของโมเดลที่ขนาด input หลายแบบ, finite/nonzero gradients ทุก parameter, class selection, nearest-neighbor mask encoding, invalid/missing annotation, empty-mask loss/IoU, AP ที่มี false positives และ confidence ties รวมถึง actual forward ขนาด 720×1280 แต่ **การทดสอบ shape ที่ขนาดต้นฉบับไม่ได้หมายความว่า experiment เทรนที่ 720×1280** ผลหลักยังใช้ model input 36×64 ตามที่ระบุ
 
-### Checklist เทียบกับสิ่งที่ต้องส่ง
-
-| ข้อกำหนด | ส่วนของ README/ไฟล์ที่ตอบโจทย์ |
-|---|---|
-| อธิบายเครือข่ายที่ออกแบบและเหตุผล | Architecture diagram, layer/parameter table, design rationale, model.py |
-| กราฟ loss แสดงการลู่เข้า | Embedded loss plot, epoch table และ convergence analysis |
-| ประสิทธิภาพของ trained model | Original-resolution IoU, detection flag/rate, mask AP, PR และ per-image results |
-| Snapshot ก่อน/หลังอย่างน้อย 1 รูป | Embedded original/GT/prediction panels 3 ภาพ |
-| Inference memory footprint | RAM RSS, CUDA allocated/reserved, checkpoint size และ measurement scope |
-| ใช้เฉพาะ PSU polygon และ train ทุก layer ใหม่ | Class 3 lane selection, random initialization, 650/350 manifests และ weight verification |
-
-## งานที่เกี่ยวข้องและเอกสารอ้างอิง
-
-### 1. Ultrafast Lane Detection Inference Pytorch
-
-[Repository ของ ibaiGorordo](https://github.com/ibaiGorordo/Ultrafast-Lane-Detection-Inference-Pytorch-) มีตัวอย่าง inference กับภาพ วิดีโอ และ webcam โดยโหลด pretrained Ultra Fast Lane Detection model และให้ผลเป็น keypoints ของเลนได้สูงสุดสี่เส้น ตามคำอธิบายใน README ของ repository
-
-ใช้เป็นแหล่งศึกษาการจัดสคริปต์ inference และการนำผลทำนายไปแสดงบนภาพ งานนี้เลือกสร้าง binary lane surface mask ด้วย U-Net และ random initialization ตาม assignment จึงไม่ได้โหลด weights หรือใช้โมเดลจาก repository ดังกล่าว ผล keypoints กับ dense mask เป็นคนละ representation และไม่มีการนำคะแนนของทั้งสองงานมาเทียบโดยตรง
-
-### 2. YOLOTL: YOLO-based Top-view Lane Segmentation and Steering Control
-
-[Repository ของ Highsky7](https://github.com/Highsky7/YOLOTL) อธิบาย pipeline ที่แปลงภาพเป็น Bird's-Eye View (BEV), ใช้ YOLOv8-based segmentation, ติดตามเส้นเลน แล้วใช้ Pure Pursuit สำหรับ steering control มีตัวอย่างทั้ง ROS และ standalone video
-
-ใช้ศึกษาการเชื่อมผล segmentation กับขั้นตอนประมวลผลต่อเนื่องในระบบขับเคลื่อน แต่ assignment นี้หยุดที่ lane segmentation และการประเมิน mask ไม่ได้ทำ BEV calibration, lane tracking, center-path estimation, ROS หรือ steering control และไม่ได้ใช้ pretrained YOLOTL weights
-
-### เปรียบเทียบขอบเขตกับโครงงานนี้
-
-| ประเด็น | Ultrafast inference example | YOLOTL | โครงงานนี้ |
-|---|---|---|---|
-| ผลหลักตาม repository | Lane keypoints | BEV lane mask และ steering pipeline | Dense binary lane surface mask |
-| รูปแบบการใช้งานที่นำเสนอ | ภาพ / วิดีโอ / webcam | ROS หรือ standalone video | Image inference และ evaluation scripts |
-| โมเดลที่อ้างถึง | Pretrained Ultra Fast Lane Detection | YOLOv8-based segmentation | Custom U-Net random-initialized |
-| เป้าหมายในการศึกษา | การใช้งาน/แสดงผล inference | การเชื่อม segmentation กับระบบควบคุม | การออกแบบ เทรน และวัดผลบน PSU polygons |
-
-ข้อสรุปของสอง repository อ้างจาก README ต้นทางที่อ่านประกอบการเขียนรายงาน ไม่ได้รันหรือ benchmark ทั้งสองระบบบนเครื่องนี้ และไม่ได้อ้างว่าคะแนนหรือความเร็วของงานนี้เหนือกว่างานเหล่านั้น
-
-เอกสารเพิ่มเติม: [PyTorch TensorBoard / SummaryWriter](https://docs.pytorch.org/docs/2.6/tensorboard.html), [PyTorch installation](https://pytorch.org/get-started/locally/), [DATACARD ของข้อมูลที่ใช้จริง](data/DATACARD.md) และ [ข้อกำหนด assignment](assignment-spec.md)
-
-Repository สำหรับส่งงาน: [SaleemSws/Neural-network-from-scratch-custom-dataset-](https://github.com/SaleemSws/Neural-network-from-scratch-custom-dataset-) โค้ด, best checkpoint, split manifests, ผลประเมิน และภาพรายงานอยู่ใน branch `main` สามารถส่ง URL นี้ใน MS Teams ตามช่องทางที่อาจารย์กำหนด
-
-Dataset เต็ม, validation masks/probabilities และ TensorBoard logs ไม่รวมใน Git repository โดยมีแหล่ง dataset ใน [DATACARD](data/DATACARD.md) ให้เตรียมไฟล์ตามขั้นตอนติดตั้งข้างต้น ส่วน submission ZIP ที่จัดเตรียมในเครื่องรวมข้อมูลและผลรันครบ ยังไม่ได้อัปโหลด ZIP เป็น GitHub Release และยังไม่ได้ส่ง URL เข้า MS Teams แทนผู้ใช้
